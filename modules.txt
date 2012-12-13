@@ -1,17 +1,17 @@
 perl                             = 5.008
-CGI                              = 0
+CGI                              = 3.47
+Cwd                              = 3.2701
 Data::Dumper                     = 0
-Encode                           = 0
+Encode                           = 2.26
 File::Find                       = 0
 Getopt::Long                     = 0
 JSON                             = 2.0
-JSON::XS                         = 0
+JSON::XS                         = 2.29
 JSON::PP                         = 0
 Sys::Hostname                    = 0
-Template                         = 0
 Test::Harness                    = 0
 Text::Markdown                   = 0
-Time::HiRes                      = 0
+Time::HiRes                      = 1.9718
 Time::Piece                      = 0
 Time::Seconds                    = 0
 XML::XPath                       = 0
@@ -21,13 +21,92 @@ YAML                             = 0
 YAML::Syck                       = 0
 Set::Object                      = 0
 
+#POE::Component::Client::Keepalive = 0
+#Algorithm::Diff          = 1.19
+#B::Deparse               = 0
+#Capture::Tiny            = 0.06
+#Class::Adapter           = 1.05
+#Class::Inspector         = 1.22
+#Class::XSAccessor        = 1.13
+#Debug::Client            = 0.20
+#Devel::Dumpvar           = 0.04
+#Devel::Refactor          = 0.05
+#ExtUtils::MakeMaker      = 6.56
+#ExtUtils::Manifest       = 1.56
+#File::Basename           = 0
+#File::Glob               = 0
+## File::Glob::Windows      = 0.1.3 if win32
+#File::Copy::Recursive    = 0.37
+#File::Find::Rule         = 0.30
+#File::HomeDir            = 0.98
+#File::Path               = 2.08
+#File::Remove             = 1.49
+#File::ShareDir           = 1.00
+#File::Spec               = 3.2701
+#File::Spec::Functions    = 3.2701
+#File::Temp               = 0.20
+#File::Which              = 1.08
+#File::pushd              = 1.00
+#FindBin                  = 0
+#HTML::Entities           = 3.57
+#HTML::Parser             = 3.58
+#IO::Socket               = 1.30
+#IO::String               = 1.08
+#IPC::Run                 = 0.83
+#IPC::Open2               = 0
+#IPC::Open3               = 0
+#List::Util               = 1.18
+#List::MoreUtils          = 0.22
+#LWP                      = 5.815
+#Module::Build            = 0.3603
+#Module::CoreList         = 2.22
+#Module::Manifest         = 0.07
+#ORLite                   = 1.96
+#ORLite::Migrate          = 1.10
+#Params::Util             = 0.33
+#Parse::ErrorString::Perl = 0.14
+#Parse::ExuberantCTags    = 1.00
+#Pod::Functions           = 0
+#Pod::POM                 = 0.17
+#Pod::Simple              = 3.07
+#Pod::Simple::XHTML       = 3.04
+#Pod::Abstract            = 0.16
+#Pod::Perldoc             = 3.15
+#POD2::Base               = 0.043
+#POSIX                    = 0
+#PPI                      = 1.213
+#PPIx::EditorTools        = 0.13
+#PPIx::Regexp             = 0.011
+#Probe::Perl              = 0.01
+#Storable                 = 2.16
+#Sort::Versions           = 1.5
+#Template::Tiny           = 0.11
+#Term::ReadLine           = 0
+#Text::Balanced           = 2.01
+#Text::Diff               = 1.41
+#Text::FindIndent         = 0.10
+#Text::Patch              = 1.8
+#URI                      = 0
+##Win32              = 0.31
+##Win32::Shortcut    = 0.07
+##Win32::TieRegistry = 0.26
+#YAML::Tiny              = 1.32
+#
+#Test::Warn       = 0.24
+#Test::MockObject = 1.09
+#Test::Script     = 1.07
+#Test::Exception  = 0.27
+#IO::Scalar       = 0
+
+
+
 # Task::Kensho::Toolchain
-App::cpanminus                   = 0
+App::cpanminus                   = 0.9923
 # local::lib                       = 0  # ??
-version                          = 0
+version                          = 0.80
 
 # Task::Kensho::Testing
-Test::Simple                     = 0
+Test::Simple                     = 0.88
 Test::Most                       = 0
 Test::Fatal                      = 0
 Test::Pod                        = 0
@@ -36,8 +115,7 @@ Test::Memory::Cycle              = 0
 Devel::Cover                     = 0
 Test::Deep                       = 0
 Test::Requires                   = 0
-Test::Requires                   = 0
-Test::NoWarnings                 = 0
+Test::NoWarnings                 = 0.084
 
 # Task::Kensho::Logging
 Log::Dispatch                    = 0
@@ -76,8 +154,8 @@ MooseX::LogDispatch              = 0
 MooseX::LazyLogDispatch          = 0
 MooseX::Log::Log4perl            = 0
 MooseX::POE                      = 0
-MooseX::Workers                  = 0
-MooseX::Daemonize                = 0
+# MooseX::Workers                  = 0  # test seems to be stuck on Windows
+# MooseX::Daemonize                = 0  # test seems to fail on Windows
 MooseX::Param                    = 0
 MooseX::Iterator                 = 0
 MooseX::Clone                    = 0
@@ -143,14 +221,14 @@ MIME::Types                                     = 0
 
 # Task::Kensho::WebCrawling
 HTTP::Lite                                      = 0
-LWP::UserAgent                                  = 0
+LWP::UserAgent                                  = 5.815
 LWP::Simple                                     = 0
 WWW::Mechanize                                  = 0
 WWW::Mechanize::TreeBuilder                     = 0
 
 # Task::Kensho::DBDev
-DBI                                             = 0
-DBD::SQLite                                     = 0
+DBI                                             = 1.58
+DBD::SQLite                                     = 1.35
 DBIx::Class                                     = 0
 DBIx::Class::Schema::Loader                     = 0
 SQL::Translator                                 = 0
@@ -202,4 +280,8 @@ CPAN::Uploader                                  = 0
 #Module::CoreList
 #App::perlbrew
 
+## Task::Kensho::Hackery
+#Smart::Comments           = 0
+#Term::ProgressBar::Simple = 0
+#IO::All  = 0
 
