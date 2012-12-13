@@ -11,3 +11,4 @@ Makefile.old
 MANIFEST
 MANIFEST.bak
 Task-DWIM*.gz
+nytprof.out

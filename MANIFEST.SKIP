@@ -43,4 +43,7 @@ MYMETA\.(?:yml|json)$
 # Avoid archives of this distribution
 \bTask-DWIM-[\d\.\_]+
 
+nytprof.out
+
+
 
