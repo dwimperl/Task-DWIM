@@ -14,8 +14,7 @@ while (my $line = <$fh>) {
 }
 close $fh;
 
-
-# repository 'https://github.com/szabgab/Task-DWIM';
+repository 'https://github.com/dwimperl/Task-DWIM';
 
 WriteAll;
 
