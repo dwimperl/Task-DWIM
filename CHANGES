@@ -1,9 +1,10 @@
 
 
-v0.02
+v0.02 2012.12.13
     Add link to public Git repository
     Add CHANGES file
     Fix package name to allow indexing
+    Added a few more modules
 
 v0.01 2012.12.13
     First release

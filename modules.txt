@@ -19,7 +19,38 @@ utf8                             = 0
 
 YAML                             = 0
 YAML::Syck                       = 0
+Set::Object                      = 0
+DateTime                         = 0
 
+# Task::Kensho::Toolchain
+App::cpanminus                   = 0
+# local::lib                       = 0  # ??
+version                          = 0
+
+# Task::Kensho::Testing
+Test::Simple                     = 0
+Test::Most                       = 0
+Test::Fatal                      = 0
+Test::Pod                        = 0
+Test::Pod::Coverage              = 0
+Test::Memory::Cycle              = 0
+Devel::Cover                     = 0
+Test::Deep                       = 0
+Test::Requires                   = 0
+Test::Requires                   = 0
+Test::NoWarnings                 = 0
+
+# Task::Kensho::Logging
+Log::Dispatch                    = 0
+Log::Log4perl                    = 0
+Log::Contextual                  = 0
+
+# Task::Kensho::Excpetions
+Try::Tiny
+#TryCatch                         = 0 # 1.003000 fails
+autodie
+
+# Task::Kensho::OOP   Task::Moose
 MooseX::StrictConstructor        = 0
 MooseX::Params::Validate         = 0
 MooseX::Role::TraitConstructor   = 0
@@ -32,13 +63,10 @@ MooseX::Singleton                = 0
 MooseX::NonMoose                 = 0
 MooseX::Declare                  = 0
 MooseX::Method::Signatures       = 0
-#TryCatch                         = 0 # 1.003000 fails
 MooseX::Types                    = 0
 MooseX::Types::Structured        = 0
 MooseX::Types::Path::Class       = 0
-Set::Object                      = 0
 MooseX::Types::Set::Object       = 0
-DateTime                         = 0
 MooseX::Types::DateTime          = 0
 MooseX::Getopt                   = 0
 MooseX::ConfigFromFile           = 0
@@ -61,22 +89,57 @@ MooseX::SemiAffordanceAccessor   = 0
 namespace::autoclean             = 0
 Pod::Coverage::Moose             = 0
 
-# Kensho::Toolchain
-App::cpanminus                   = 0
-# local::lib                       = 0  # ??
-version                          = 0
+# Task::Kensho::Async
+POE                              = 0
 
-# Task::Kensho::Testing
-Test::Simple                     = 0
-Test::Most                       = 0
-Test::Fatal                      = 0
-Test::Pod                        = 0
-Test::Pod::Coverage              = 0
-Test::Memory::Cycle              = 0
-Devel::Cover                     = 0
-Test::Deep                       = 0
-Test::Requires                   = 0
-Test::Requires                   = 0
-Test::NoWarnings                 = 0
+### Task::Kensho::XML
+##XML::LibXML                      = 0
+##XML::LibXSLT                     = 0
+##XML::SAX                         = 0
+##XML::Generator::PerlData         = 0
+##XML::SAX::Writer                 = 0
+##
+##
+### Task::Kensho::WebDev  Task::Catalyst  and more
+##Catalyst                                        = 5.80
+##Catalyst::Action::REST                          = 0
+##Catalyst::ActionRole::ACL                       = 0
+##Catalyst::Authentication::Credential::HTTP      = 0
+##Catalyst::Authentication::Store::DBIx::Class    = 0
+##Catalyst::Component::InstancePerContext         = 0
+##Catalyst::Controller::ActionRole                = 0
+##Catalyst::Devel                                 = 1.26
+##Catalyst::Manual                                = 5.80
+##Catalyst::Model::Adaptor                        = 0
+##Catalyst::Model::DBIC::Schema                   = 0
+##Catalyst::Plugin::Authentication                = 0
+##Catalyst::Plugin::ConfigLoader                  = 0
+##Catalyst::Plugin::I18N                          = 0
+##Catalyst::Plugin::Session                       = 0
+##Catalyst::Plugin::Session::State::Cookie        = 0
+##Catalyst::Plugin::Session::Store::DBIC          = 0
+##Catalyst::Plugin::Session::Store::File          = 0
+##Catalyst::Plugin::StackTrace                    = 0
+##Catalyst::Plugin::Static::Simple                = 0
+##Catalyst::Plugin::Unicode::Encoding             = 0
+##Catalyst::View::Email                           = 0
+##Catalyst::View::TT                              = 0
+##CatalystX::Component::Traits                    = 0
+##CatalystX::LeakChecker                          = 0
+##CatalystX::Profile                              = 0
+##CatalystX::REPL                                 = 0
+##CatalystX::SimpleLogin                          = 0
+##FCGI                                            = 0
+##FCGI::ProcManager                               = 0
+### Starman                                         = 0  # IMHO does not run on Windows
+##Test::WWW::Mechanize::Catalyst                  = 0
+
+Plack                            = 0
+Template                         = 0
+CGI::FormBuilder::Source::Perl   = 0
+XML::RSS                         = 0
+XML::Atom                        = 0
+MIME::Types                      = 0
+
 
 
