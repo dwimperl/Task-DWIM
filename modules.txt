@@ -13,9 +13,70 @@ Test::Harness                    = 0
 Text::Markdown                   = 0
 Time::HiRes                      = 0
 Time::Piece                      = 0
-Time::Piece::MySQL               = 0
 Time::Seconds                    = 0
 XML::XPath                       = 0
 utf8                             = 0
+
+YAML                             = 0
+YAML::Syck                       = 0
+
+MooseX::StrictConstructor        = 0
+MooseX::Params::Validate         = 0
+MooseX::Role::TraitConstructor   = 0
+MooseX::Traits                   = 0
+MooseX::Object::Pluggable        = 0
+MooseX::Role::Parameterized      = 0
+MooseX::GlobRef                  = 0
+MooseX::InsideOut                = 0
+MooseX::Singleton                = 0
+MooseX::NonMoose                 = 0
+MooseX::Declare                  = 0
+MooseX::Method::Signatures       = 0
+#TryCatch                         = 0 # 1.003000 fails
+MooseX::Types                    = 0
+MooseX::Types::Structured        = 0
+MooseX::Types::Path::Class       = 0
+Set::Object                      = 0
+MooseX::Types::Set::Object       = 0
+DateTime                         = 0
+MooseX::Types::DateTime          = 0
+MooseX::Getopt                   = 0
+MooseX::ConfigFromFile           = 0
+MooseX::SimpleConfig             = 0
+MooseX::App::Cmd                 = 0
+MooseX::Role::Cmd                = 0
+MooseX::LogDispatch              = 0
+MooseX::LazyLogDispatch          = 0
+MooseX::Log::Log4perl            = 0
+MooseX::POE                      = 0
+MooseX::Workers                  = 0
+MooseX::Daemonize                = 0
+MooseX::Param                    = 0
+MooseX::Iterator                 = 0
+MooseX::Clone                    = 0
+MooseX::Storage                  = 0
+Moose::Autobox                   = 0
+MooseX::ClassAttribute           = 0
+MooseX::SemiAffordanceAccessor   = 0
+namespace::autoclean             = 0
+Pod::Coverage::Moose             = 0
+
+# Kensho::Toolchain
+App::cpanminus                   = 0
+# local::lib                       = 0  # ??
+version                          = 0
+
+# Task::Kensho::Testing
+Test::Simple                     = 0
+Test::Most                       = 0
+Test::Fatal                      = 0
+Test::Pod                        = 0
+Test::Pod::Coverage              = 0
+Test::Memory::Cycle              = 0
+Devel::Cover                     = 0
+Test::Deep                       = 0
+Test::Requires                   = 0
+Test::Requires                   = 0
+Test::NoWarnings                 = 0
 
 
