@@ -3,6 +3,14 @@
 use strict;
 use warnings;
 
-use Test::More tests => 1;
+use Test::More;
 use Task::DWIM;
-ok(1);
+
+my $modules = Task::DWIM::read_modules();
+plan tests => scalar keys %$modules;
+
+foreach my $name (keys %$modules) {
+    no warnings 'redefine';
+    eval "use $name ()";
+    is $@, '', $name;
+}

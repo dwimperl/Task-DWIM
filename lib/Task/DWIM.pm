@@ -4,6 +4,24 @@ use 5.008;
 use strict;
 our $VERSION = '0.02';
 
+sub read_modules {
+    my %modules;
+    open my $fh, '<', 'modules.txt' or die;
+    while (my $line = <$fh>) {
+        chomp $line;
+        next if $line =~ /^\s*(#.*)?$/;
+        $line =~ s/\s*#.*//;
+        my ($name, $version) = split /\s*=\s*/, $line;
+        if (exists $modules{$name}) {
+            die "Module '$name' has 2 entries. One with '$modules{$name}' and the other one with '$version'";
+        }
+        $modules{$name} = $version;
+    }
+    close $fh;
+    return \%modules;
+}
+
+
 1;
 
 __END__
