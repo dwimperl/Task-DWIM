@@ -1,8 +1,8 @@
-package Task::Litmus;
+package Task::DWIM;
 
 use 5.008;
 use strict;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
@@ -26,7 +26,7 @@ If you are interested, contact me to take over the maintenance.
 
 =head1 SEE ALSO
 
-L<Task>, L<https://litmus.mozilla.org/>
+L<Task>, L<http://dwimperl.com/>
 
 =head1 COPYRIGHT
 

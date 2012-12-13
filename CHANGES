@@ -3,6 +3,7 @@
 v0.02
     Add link to public Git repository
     Add CHANGES file
+    Fix package name to allow indexing
 
 v0.01 2012.12.13
     First release
