@@ -1,5 +1,14 @@
 
 
+v0.03
+    Add modules from Task::Catalyst
+    Add Task::Kensho::XML
+    Add Task::Kensho::WebCrawling
+    Add Task::Kensho::DBDev
+    Add Task::Kensho::ExcelCSV
+    Add Task::Kensho::ModuleDev
+
+
 v0.02 2012.12.13
     Add link to public Git repository
     Add CHANGES file
