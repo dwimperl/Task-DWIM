@@ -383,3 +383,5 @@ XSLoader                                        = 0.15
 YAML                                            = 0.77
 YAML::Syck                                      = 0
 YAML::Tiny                                      = 1.50
+Test::TinyMocker                                = 0.03 # pod test fails on Windows
+MetaCPAN::API                                   = 0.43
