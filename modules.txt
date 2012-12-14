@@ -21,11 +21,11 @@ YAML::Syck                       = 0
 Set::Object                      = 0
 
 # POE::Component::Client::Keepalive = 0 # POE-Component-Resolver-0.921 failed on Windows (RT reported)
-Algorithm::Diff                   = 1.19
+Algorithm::Diff                   = 1.1902
 B::Deparse                        = 0
 Capture::Tiny                     = 0.11
 Class::Adapter                    = 1.05
-Class::Inspector                  = 1.22
+Class::Inspector                  = 1.25
 Class::XSAccessor                 = 1.13
 Debug::Client                     = 0.20
 Devel::Dumpvar                    = 0.04
@@ -40,7 +40,7 @@ File::Find::Rule                  = 0.33
 File::HomeDir                     = 0.98
 File::Path                        = 2.08
 File::Remove                      = 1.51
-File::ShareDir                    = 1.00
+File::ShareDir                    = 1.03
 File::Spec                        = 3.2701
 File::Spec::Functions             = 3.2701
 File::Temp                        = 0.20
@@ -51,7 +51,7 @@ HTML::Entities                    = 3.57
 HTML::Parser                      = 3.69
 IO::Socket                        = 1.30
 IO::String                        = 1.08
-IPC::Run                          = 0.83
+IPC::Run                          = 0.90
 IPC::Open2                        = 0
 IPC::Open3                        = 0
 List::Util                        = 1.18
@@ -328,110 +328,109 @@ IPC::Cmd                = 0.72
 Locale::Codes           = 3.18
 # Math::BigInt            = 1.997 # on window 1.993 and does not upgrade
 # Math::BigInt::FastCalc  = 0.30
-Math::Complex           = 1.58
-Module::Load            = 0.22
-Module::Load::Conditional = 0.46
-Object::Accessor        = 0.42
-Params::Check           = 0.32
-Term::ANSIColor         = 3.01
-Unicode::Collate        = 0.84
-Unicode::Normalize      = 1.13
-XSLoader                = 0.15
-bignum                  = 0.29
-#threads                 = 1.85
-#threads::shared         = 1.40
-# Filter                  = 1.39  # not on CPAN?
-Locale::Maketext        = 1.19
-CPANPLUS::Dist::Build   = 0.60
-IPC::System::Simple     = 1.21
-LWP::Online             = 1.08
-Parse::Binary           = 0.11
-# Math::Pari              = 2.01080605 # hard to install, let's wait with this
-#Math::BigInt::GMP 1.37
-XML::Parser             = 2.41
-XML::NamespaceSupport   = 1.11
-XML::SAX::Base          = 1.08
-XML::Simple             = 2.18
-PAR::Dist               = 0.48
-PAR::Dist::FromPPD      = 0.03
-PAR::Dist::InstallPPD   = 0.02
-Tree::DAG_Node          = 1.06
-Sub::Uplevel            = 0.22
-Test::Tester            = 0.107
-IO::Stringy             = 2.110
-DBM::Deep               = 2.0004
-PAR                     = 1.002
-PAR::Repository::Query  = 0.14
-PAR::Repository::Client = 0.25
-Number::Compare         = 0.03
-Data::Compare           = 1.22
-File::chmod             = 0.32
-CPAN::Checksums         = 2.08
-CPAN::Inject            = 1.13
-pler                    = 1.06
-pip                     = 1.19
-CPAN::DistnameInfo      = 0.12
-CPAN::SQLite            = 0.202
-DBIx::Simple            = 1.35
-# DB_File                 = 1.824
-# BerkeleyDB              = 0.49 # failed
-# DBD::ODBC               = 1.31
-# DBD::ADO                = 2.99
-# DBD::Pg                = 2.18.1
-# DBD::mysql             = 4.020
-common::sense           = 3.4
-Imager                  = 0.86
-# GD                     = 2.46
-# Crypt::IDEA            = 1.08
-# Crypt::Blowfish        = 2.12
-# Crypt::SSLeay          = 0.58
-# Digest::HMAC           = 1.03
-# Net::SSLeay            = 1.42
-IO::Socket::SSL         = 1.49
-Net::SMTP::TLS          = 0.12
-Mozilla::CA             = 20111025
-LWP::Protocol::https    = 6.02
-Data::Random            = 0.06
-# Math::GMP               = 2.06
-Data::Buffer            = 0.04
-Class::ErrorHandler     = 0.01
-Convert::ASN1           = 0.22
-Crypt::CBC              = 2.30
-Crypt::DES              = 2.05
-Crypt::DES_EDE3         = 0.01
-Convert::PEM            = 0.08
-#Crypt::DH               = 0.06
-#Crypt::DSA              = 1.17
-#Tie::EncryptedHash      = 1.24
-#Class::Loader = 2.03
-#Convert::ASCII::Armour = 1.4
-#Digest::MD2 = 2.03
-#Sort::Versions = 1.5
-#Crypt::Random = 1.25
-#Crypt::Primes = 0.50
-#Crypt::RSA = 1.99
-#Digest::BubbleBabble = 0.02
-#String::CRC32 1.4
-#Net::SSH2 0.40
-#Test::Manifest 1.23
-#Crypt::Rijndael 1.09
-#Crypt::CAST5_PP 1.04
-#Crypt::RIPEMD160 0.05
-#Crypt::Twofish 2.14
-#Algorithm::Diff 1.1902
-#Text::Diff 1.41
-#IPC::Run 0.90
-#Crypt::OpenPGP 1.06
-#Module::Signature 0.68
-#Task::Weaken 1.04
-#Class::Inspector 1.25
-#SOAP::Lite 0.714
-#File::ShareDir 1.03
-#Alien::Tidyp 1.4.7
-#IO::Interactive 0.0.6
-#App::local::lib::Win32Helper 0.990
-#Compress::Raw::Lzma 2.042
-#IO::Compress::Lzma 2.042
-#Math::MPFR 3.10
-#Math::MPC 0.91
+Math::Complex                    = 1.58
+Module::Load                     = 0.22
+Module::Load::Conditional        = 0.46
+Object::Accessor                 = 0.42
+Params::Check                    = 0.32
+Term::ANSIColor                  = 3.01
+Unicode::Collate                 = 0.84
+Unicode::Normalize               = 1.13
+XSLoader                         = 0.15
+bignum                           = 0.29
+# threads                          = 1.85
+# threads::shared                  = 1.40
+# Filter                           = 1.39  # not on CPAN?
+Locale::Maketext                 = 1.19
+CPANPLUS::Dist::Build            = 0.60
+IPC::System::Simple              = 1.21
+LWP::Online                      = 1.08
+Parse::Binary                    = 0.11
+# Math::Pari                       = 2.01080605 # hard to install, let's wait with this
+# Math::BigInt::GMP                = 1.37
+XML::Parser                      = 2.41
+XML::NamespaceSupport            = 1.11
+XML::SAX::Base                   = 1.08
+XML::Simple                      = 2.18
+PAR::Dist                        = 0.48
+PAR::Dist::FromPPD               = 0.03
+PAR::Dist::InstallPPD            = 0.02
+Tree::DAG_Node                   = 1.06
+Sub::Uplevel                     = 0.22
+Test::Tester                     = 0.107
+IO::Stringy                      = 2.110
+DBM::Deep                        = 2.0004
+PAR                              = 1.002
+PAR::Repository::Query           = 0.14
+PAR::Repository::Client          = 0.25
+Number::Compare                  = 0.03
+Data::Compare                    = 1.22
+File::chmod                      = 0.32
+CPAN::Checksums                  = 2.08
+CPAN::Inject                     = 1.13
+pler                             = 1.06
+pip                              = 1.19
+CPAN::DistnameInfo               = 0.12
+CPAN::SQLite                     = 0.202
+DBIx::Simple                     = 1.35
+# DB_File                          = 1.824
+# BerkeleyDB                       = 0.49 # failed
+# DBD::ODBC                        = 1.31
+# DBD::ADO                         = 2.99
+# DBD::Pg                          = 2.18.1
+# DBD::mysql                       = 4.020
+common::sense                    = 3.4
+Imager                           = 0.86
+# GD                               = 2.46
+# Crypt::IDEA                      = 1.08
+# Crypt::Blowfish                  = 2.12
+# Crypt::SSLeay                    = 0.58
+# Digest::HMAC                     = 1.03
+# Net::SSLeay                      = 1.42
+IO::Socket::SSL                  = 1.49
+Net::SMTP::TLS                   = 0.12
+Mozilla::CA                      = 20111025
+LWP::Protocol::https             = 6.02
+Data::Random                     = 0.06
+# Math::GMP                        = 2.06
+Data::Buffer                     = 0.04
+Class::ErrorHandler              = 0.01
+Convert::ASN1                    = 0.22
+Crypt::CBC                       = 2.30
+Crypt::DES                       = 2.05
+Crypt::DES_EDE3                  = 0.01
+Convert::PEM                     = 0.08
+# Crypt::DH                        = 0.06
+# Crypt::DSA                       = 1.17
+Tie::EncryptedHash               = 1.24
+Class::Loader                    = 2.03
+Convert::ASCII::Armour           = 1.4
+Digest::MD2                      = 2.03
+# Crypt::Random                    = 1.25
+# Crypt::Primes                    = 0.50
+# Crypt::RSA                       = 1.99
+Digest::BubbleBabble             = 0.02
+String::CRC32                    = 1.4
+# Net::SSH2                        = 0.40
+Test::Manifest                   = 1.23
+# Crypt::Rijndael                  = 1.09
+Crypt::CAST5_PP                  = 1.04
+Crypt::RIPEMD160                 = 0.05
+Crypt::Twofish                   = 2.14
+# Crypt::OpenPGP                   = 1.06
+Module::Signature                = 0.68
+Task::Weaken                     = 1.04
+SOAP::Lite                       = 0.714
+# SOAP::Transport::FTP      = 0
+# SOAP::Transport::TCP      = 0
+# SOAP::Transport::JABBER   = 0
+# SOAP::Transport::MQ       = 0
+# MIME::Parser              = 0
+# DIME::Tools               = 0
+# Alien::Tidyp                     = 1.4.7  # v1.4.7 ???
+IO::Interactive                  = 0.0.6
+# Compress::Raw::Lzma              = 2.042
+# IO::Compress::Lzma               = 2.042
+# Math::MPFR                       = 3.10
+# Math::MPC                        = 0.91
 
