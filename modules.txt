@@ -1,4 +1,4 @@
-CGI                              = 3.47
+CGI                              = 3.58
 Cwd                              = 3.2701
 Data::Dumper                     = 2.131
 Encode                           = 2.44
@@ -39,7 +39,7 @@ File::Copy::Recursive             = 0.37
 File::Find::Rule                  = 0.30
 File::HomeDir                     = 0.98
 File::Path                        = 2.08
-File::Remove                      = 1.49
+File::Remove                      = 1.51
 File::ShareDir                    = 1.00
 File::Spec                        = 3.2701
 File::Spec::Functions             = 3.2701
@@ -57,7 +57,7 @@ IPC::Open3                        = 0
 List::Util                        = 1.18
 List::MoreUtils                   = 0.22
 LWP                               = 5.815
-Module::Build                     = 0.3603
+Module::Build                     = 0.3800
 Module::Manifest                  = 0.07
 ORLite                            = 1.96
 ORLite::Migrate                   = 1.10
@@ -200,7 +200,7 @@ CatalystX::LeakChecker                          = 0
 CatalystX::Profile                              = 0
 # CatalystX::REPL                                 = 0 # one of the prereqs (IO::Tty) cannot be installed on Windows
 CatalystX::SimpleLogin                          = 0
-FCGI                                            = 0
+FCGI                                            = 0.74
 # FCGI::ProcManager                               = 0  # failed on windows
 # Starman                                         = 0  # IMHO does not run on Windows
 Test::WWW::Mechanize::Catalyst                  = 0
@@ -340,22 +340,13 @@ XSLoader                = 0.15
 bignum                  = 0.29
 #threads                 = 1.85
 #threads::shared         = 1.40
-#FCGI 0.74
-#CGI.pm 3.58
-#Filter 1.39
-#Locale::Maketext 1.19
-#CPANPLUS::Dist::Build 0.60
-#Win32::Process 0.14
-#IPC::System::Simple 1.21
-#Module::Build 0.3800
-#LWP::Online 1.08
-#Win32::File 0.06
-#File::Remove 1.51
-#Win32::File::Object 0.02
-#Parse::Binary 0.11
-#Win32::EventLog 0.076
-#Win32::API 0.64
-#Math::Pari 2.01080605
+# Filter                  = 1.39  # not on CPAN?
+Locale::Maketext        = 1.19
+CPANPLUS::Dist::Build   = 0.60
+IPC::System::Simple     = 1.21
+LWP::Online             = 1.08
+Parse::Binary           = 0.11
+# Math::Pari              = 2.01080605 # hard to install, let's wait with this
 #Math::BigInt::GMP 1.37
 #XML::Parser 2.41
 #XML::NamespaceSupport 1.11
