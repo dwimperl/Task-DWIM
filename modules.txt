@@ -1,7 +1,7 @@
 CGI                              = 3.47
 Cwd                              = 3.2701
-Data::Dumper                     = 0
-Encode                           = 2.26
+Data::Dumper                     = 2.131
+Encode                           = 2.44
 File::Find                       = 0
 Getopt::Long                     = 0
 JSON                             = 2.0
@@ -10,20 +10,20 @@ JSON::PP                         = 2.27200
 Sys::Hostname                    = 0
 Test::Harness                    = 0
 Text::Markdown                   = 0
-Time::HiRes                      = 1.9718
+Time::HiRes                      = 1.9724
 Time::Piece                      = 0
 Time::Seconds                    = 0
 XML::XPath                       = 0
 utf8                             = 0
 
-YAML                             = 0
+YAML                             = 0.77
 YAML::Syck                       = 0
 Set::Object                      = 0
 
 # POE::Component::Client::Keepalive = 0 # POE-Component-Resolver-0.921 failed on Windows (RT reported)
 Algorithm::Diff                   = 1.19
 B::Deparse                        = 0
-Capture::Tiny                     = 0.06
+Capture::Tiny                     = 0.11
 Class::Adapter                    = 1.05
 Class::Inspector                  = 1.22
 Class::XSAccessor                 = 1.13
@@ -48,7 +48,7 @@ File::Which                       = 1.09
 File::pushd                       = 1.00
 FindBin                           = 0
 HTML::Entities                    = 3.57
-HTML::Parser                      = 3.58
+HTML::Parser                      = 3.69
 IO::Socket                        = 1.30
 IO::String                        = 1.08
 IPC::Run                          = 0.83
@@ -66,7 +66,7 @@ Parse::ErrorString::Perl          = 0.14
 Parse::ExuberantCTags             = 1.00
 Pod::Functions                    = 0
 Pod::POM                          = 0.27
-Pod::Simple                       = 3.07
+Pod::Simple                       = 3.19
 Pod::Simple::XHTML                = 3.04
 Pod::Abstract                     = 0.16
 Pod::Perldoc                      = 3.15
@@ -76,7 +76,7 @@ PPI                               = 1.213
 PPIx::EditorTools                 = 0.13
 PPIx::Regexp                      = 0.011
 Probe::Perl                       = 0.01
-Storable                          = 2.16
+Storable                          = 2.30
 Sort::Versions                    = 1.5
 Template::Tiny                    = 0.11
 Term::ReadLine                    = 0
@@ -84,7 +84,7 @@ Text::Balanced                    = 2.01
 Text::Diff                        = 1.41
 Text::FindIndent                  = 0.10
 Text::Patch                       = 1.8
-URI                               = 0
+URI                               = 1.59
 YAML::Tiny                        = 1.32
 Test::Warn                        = 0.24
 Test::MockObject                  = 1.09
@@ -271,7 +271,7 @@ Config::General                                 = 0
 App::Ack                                        = 0
 # App::Nopaste                                    = 0 # one of its prereqs fails on Windows
 Devel::REPL                                     = 0
-Module::CoreList                                = 2.22
+Module::CoreList                                = 2.57
 # App::perlbrew                                   = 0 # 0.58 fails its tests on Windows
 
 # Task::Kensho::Hackery
@@ -291,65 +291,55 @@ Archive::Zip            = 1.30
 Archive::Tar            = 1.80
 Compress::unLZMA        = 0.04
 CPAN::Meta::YAML        = 0.004
-#YAML                    = 0.77
-#Digest::SHA1            = 2.13
-#Digest::SHA             = 5.63
-#Module::Metadata        = 1.000007
-#CPAN::Meta              = 2.112621
-#CPAN                    = 1.9800
-#TermReadKey             = 2.30.02
-#Term::ReadLine::Perl    = 1.0303
-#Text::Glob              = 0.09
-#Data::Dumper            = 2.131
-#URI                     = 1.59
-#HTML::Tagset            = 3.20
-#HTML::Parser            = 3.69
-#WWW::RobotRules         = 6.01
-#HTTP::Date              = 6.00
-#LWP::MediaTypes         = 6.01
-#HTTP::Message           = 6.02
-#HTTP::Cookies           = 6.00
-#Net::HTTP               = 6.01
-#HTTP::Daemon            = 6.00
-#HTTP::Negotiate         = 6.00
-#File::Listing           = 6.03
-#Encode::Locale          = 1.02
-#libwww::perl            = 6.03
-#File::Slurp             = 9999.19
-#Capture::Tiny           = 0.11
-#Archive::Extract        = 0.58
-#Attribute::Handlers     = 0.91
-#CPANPLUS                = 0.9112
-#Carp                    = 1.23
-#Devel::DProf            = 20110802.00
-#Devel::PPPort           = 3.20
-#Digest                  = 1.17
-#Encode                  = 2.44
-#Env                     = 1.03
-#Exporter                = 5.65
-#ExtUtils::ParseXS       = 3.05
-#Filter::Simple          = 0.87
-#HTTP::Tiny              = 0.016
-#IPC::Cmd                = 0.72
-#Locale::Codes           = 3.18
-#Math::BigInt            = 1.997
-#Math::BigInt::FastCalc  = 0.30
-#Math::Complex           = 1.58
-#Module::CoreList        = 2.57
-#Module::Load            = 0.22
-#Module::Load::Conditional = 0.46
-#Object::Accessor 0.42
-#Params::Check    0.32
-#Pod::Simple      3.19
-#Storable         2.30
-#Term::ANSIColor  3.01
-#Time::HiRes 1.9724
-#Unicode::Collate 0.84
-#Unicode::Normalize 1.13
-#XSLoader 0.15
-#bignum 0.29
-#threads 1.85
-#threads::shared 1.40
+Digest::SHA1            = 2.13
+Digest::SHA             = 5.63
+Module::Metadata        = 1.000007
+CPAN::Meta              = 2.112621
+CPAN                    = 1.9800
+# TermReadKey             = 2.30.02 # not on CPAN?
+# Term::ReadLine::Perl    = 1.0303 # test failed
+Text::Glob              = 0.09
+HTML::Tagset            = 3.20
+WWW::RobotRules         = 6.01
+HTTP::Date              = 6.00
+LWP::MediaTypes         = 6.01
+HTTP::Message           = 6.02
+HTTP::Cookies           = 6.00
+Net::HTTP               = 6.01
+HTTP::Daemon            = 6.00
+HTTP::Negotiate         = 6.00
+File::Listing           = 6.03
+Encode::Locale          = 1.02
+# libwww::perl            = 6.03 # not on CPAN (any more -> split up)
+File::Slurp             = 9999.19
+Archive::Extract        = 0.58
+Attribute::Handlers     = 0.91
+CPANPLUS                = 0.9112
+Carp                    = 1.23
+# Devel::DProf            = 20110802.00 # test failed
+Devel::PPPort           = 3.20
+Digest                  = 1.17
+Env                     = 1.03
+Exporter                = 5.65
+ExtUtils::ParseXS       = 3.05
+Filter::Simple          = 0.87
+HTTP::Tiny              = 0.016
+IPC::Cmd                = 0.72
+Locale::Codes           = 3.18
+Math::BigInt            = 1.997
+Math::BigInt::FastCalc  = 0.30
+Math::Complex           = 1.58
+Module::Load            = 0.22
+Module::Load::Conditional = 0.46
+Object::Accessor        = 0.42
+Params::Check           = 0.32
+Term::ANSIColor         = 3.01
+Unicode::Collate        = 0.84
+Unicode::Normalize      = 1.13
+XSLoader                = 0.15
+bignum                  = 0.29
+#threads                 = 1.85
+#threads::shared         = 1.40
 #FCGI 0.74
 #CGI.pm 3.58
 #Filter 1.39
