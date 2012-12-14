@@ -9,9 +9,9 @@ all_from       'lib/Task/DWIM.pm';
 
 requires perl  => 5.008;
 
-my $modules = Task::DWIM::read_modules();
-foreach my $name (keys %$modules) {
-    requires $name => $modules->{$name};
+my %modules = Task::DWIM::get_modules();
+foreach my $name (keys %modules) {
+    requires $name => $modules{$name};
 }
 
 repository 'https://github.com/dwimperl/Task-DWIM';

@@ -4,9 +4,18 @@ use 5.008;
 use strict;
 our $VERSION = '0.04';
 
+my %modules;
+
+sub get_modules {
+    read_modules('modules.txt');
+
+    return %modules;
+}
+
 sub read_modules {
-    my %modules;
-    open my $fh, '<', 'modules.txt' or die;
+    my ($file) = @_;
+
+    open my $fh, '<', $file or die "Could not open '$file' $!";
     while (my $line = <$fh>) {
         chomp $line;
         next if $line =~ /^\s*(#.*)?$/;
@@ -19,7 +28,7 @@ sub read_modules {
         $modules{$name} = $version;
     }
     close $fh;
-    return \%modules;
+    return;
 }
 
 
