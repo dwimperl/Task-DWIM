@@ -20,7 +20,7 @@ YAML                             = 0
 YAML::Syck                       = 0
 Set::Object                      = 0
 
-POE::Component::Client::Keepalive = 0
+# POE::Component::Client::Keepalive = 0 # POE-Component-Resolver-0.921 failed on Windows (RT reported)
 Algorithm::Diff                   = 1.19
 B::Deparse                        = 0
 Capture::Tiny                     = 0.06
@@ -260,7 +260,7 @@ DateTime                                        = 0
 Date::Tiny                                      = 0
 Time::Tiny                                      = 0
 DateTime::Tiny                                  = 0
-Time::ParseDate                                 = 0
+# Time::ParseDate                                 = 0 # Time-modules-2011.0517 failed on Windows
 
 # Task::Kensho::Scalability
 CHI                                             = 0
@@ -272,10 +272,10 @@ Config::General                                 = 0
 
 # Task::Kensho::CLI
 App::Ack                                        = 0
-App::Nopaste                                    = 0
+# App::Nopaste                                    = 0 # one of its prereqs fails on Windows
 Devel::REPL                                     = 0
 Module::CoreList                                = 2.22
-App::perlbrew                                   = 0
+# App::perlbrew                                   = 0 # 0.58 fails its tests on Windows
 
 # Task::Kensho::Hackery
 Smart::Comments                                 = 0
