@@ -1,0 +1,6 @@
+Win32                            = 0.31
+Win32::Shortcut                  = 0.07
+Win32::TieRegistry               = 0.26
+Win32::WinError                  = 0.03
+Win32API::Registry               = 0.32
+
