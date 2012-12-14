@@ -4,8 +4,8 @@ Data::Dumper                     = 2.131
 Encode                           = 2.44
 File::Find                       = 0
 Getopt::Long                     = 0
-JSON                             = 2.0
-JSON::XS                         = 2.29
+JSON                             = 2.53
+JSON::XS                         = 2.32
 JSON::PP                         = 2.27200
 Sys::Hostname                    = 0
 Test::Harness                    = 0
@@ -221,7 +221,7 @@ WWW::Mechanize                                  = 0
 WWW::Mechanize::TreeBuilder                     = 0
 
 # Task::Kensho::DBDev
-DBI                                             = 1.58
+DBI                                             = 1.616
 DBD::SQLite                                     = 1.35
 DBIx::Class                                     = 0
 DBIx::Class::Schema::Loader                     = 0
@@ -369,54 +369,48 @@ File::chmod             = 0.32
 CPAN::Checksums         = 2.08
 CPAN::Inject            = 1.13
 pler                    = 1.06
-#pip 1.19
-#DBI 1.616
-#DBD::SQLite 1.33
-#CPAN::DistnameInfo 0.12
-#CPAN::SQLite 0.202
-#DBIx::Simple 1.35
-#DB_File 1.824
-#Win32::OLE 0.1709
-#BerkeleyDB 0.49
-#DBD::ODBC 1.31
-#DBD::ADO 2.99
-#DBD::Pg 2.18.1
-#DBD::mysql 4.020_
-#common::sense 3.4
-#JSON::XS 2.32
-#JSON 2.53
-#local::lib 1.008004
-#Imager 0.86
-#GD 2.46_
-#Crypt::IDEA 1.08_
-#Crypt::Blowfish 2.12_
-#Crypt::SSLeay 0.58
-#Digest::HMAC 1.03
-#Net::SSLeay 1.42
-#IO::Socket::SSL 1.49
-#Net::SMTP::TLS 0.12
-#Mozilla::CA 20111025
-#LWP::Protocol::https 6.02
-#Data::Random 0.06
-#Math::GMP 2.06
-#Data::Buffer 0.04
-#Class::ErrorHandler 0.01
-#Convert::ASN1 0.22
-#Crypt::CBC 2.30
-#Crypt::DES 2.05
-#Crypt::DES_EDE3 0.01
-#Convert::PEM 0.08
-#Crypt::DH 0.06
-#Crypt::DSA 1.17
-#Tie::EncryptedHash 1.24
-#Class::Loader 2.03
-#Convert::ASCII::Armour 1.4
-#Digest::MD2 2.03
-#Sort::Versions 1.5
-#Crypt::Random 1.25
-#Crypt::Primes 0.50
-#Crypt::RSA 1.99
-#Digest::BubbleBabble 0.02
+pip                     = 1.19
+CPAN::DistnameInfo      = 0.12
+CPAN::SQLite            = 0.202
+DBIx::Simple            = 1.35
+# DB_File                 = 1.824
+# BerkeleyDB              = 0.49 # failed
+# DBD::ODBC               = 1.31
+# DBD::ADO                = 2.99
+# DBD::Pg                = 2.18.1
+# DBD::mysql             = 4.020
+common::sense           = 3.4
+Imager                  = 0.86
+# GD                     = 2.46
+# Crypt::IDEA            = 1.08
+# Crypt::Blowfish        = 2.12
+# Crypt::SSLeay          = 0.58
+# Digest::HMAC           = 1.03
+# Net::SSLeay            = 1.42
+IO::Socket::SSL         = 1.49
+Net::SMTP::TLS          = 0.12
+Mozilla::CA             = 20111025
+LWP::Protocol::https    = 6.02
+Data::Random            = 0.06
+# Math::GMP               = 2.06
+Data::Buffer            = 0.04
+Class::ErrorHandler     = 0.01
+Convert::ASN1           = 0.22
+Crypt::CBC              = 2.30
+Crypt::DES              = 2.05
+Crypt::DES_EDE3         = 0.01
+Convert::PEM            = 0.08
+#Crypt::DH               = 0.06
+#Crypt::DSA              = 1.17
+#Tie::EncryptedHash      = 1.24
+#Class::Loader = 2.03
+#Convert::ASCII::Armour = 1.4
+#Digest::MD2 = 2.03
+#Sort::Versions = 1.5
+#Crypt::Random = 1.25
+#Crypt::Primes = 0.50
+#Crypt::RSA = 1.99
+#Digest::BubbleBabble = 0.02
 #String::CRC32 1.4
 #Net::SSH2 0.40
 #Test::Manifest 1.23
