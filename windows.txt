@@ -10,5 +10,8 @@ Win32::API                       = 0.64
 Win32::Process                   = 0.14
 Win32::Exe                       = 0.17
 Win32::OLE                       = 0.1709
+Win32API::File                   = 0.1200
+Win32::UTCFileTime               = 1.52
 App::local::lib::Win32Helper     = 0.990
+File::Glob::Windows              = 0.1.3
 

@@ -34,7 +34,6 @@ ExtUtils::MakeMaker               = 6.62
 ExtUtils::Manifest                = 1.60
 File::Basename                    = 0
 File::Glob                        = 0
-# File::Glob::Windows               = 0.1.3 if win32
 File::Copy::Recursive             = 0.37
 File::Find::Rule                  = 0.33
 File::HomeDir                     = 0.98
@@ -94,12 +93,10 @@ IO::Scalar                        = 0
 
 
 
-# Task::Kensho::Toolchain
 App::cpanminus                   = 0.9923
 # local::lib                       = 0  # ??
 version                          = 0.95
 
-# Task::Kensho::Testing
 Test::Simple                     = 0.88
 Test::Most                       = 0
 Test::Fatal                      = 0
@@ -111,17 +108,14 @@ Test::Deep                       = 0.108
 Test::Requires                   = 0
 Test::NoWarnings                 = 1.03
 
-# Task::Kensho::Logging
 Log::Dispatch                    = 0
 Log::Log4perl                    = 0
 Log::Contextual                  = 0
 
-# Task::Kensho::Excpetions
 Try::Tiny                        = 0
 #TryCatch                         = 0 # 1.003000 fails
 autodie                          = 0
 
-# Task::Kensho::OOP   Task::Moose
 MooseX::StrictConstructor        = 0
 MooseX::Params::Validate         = 0
 MooseX::Role::TraitConstructor   = 0
@@ -160,10 +154,8 @@ MooseX::SemiAffordanceAccessor   = 0
 namespace::autoclean             = 0
 Pod::Coverage::Moose             = 0
 
-# Task::Kensho::Async
 POE                              = 0
 
-# Task::Kensho::XML
 XML::LibXML                      = 1.88
 XML::LibXSLT                     = 1.75
 # XML::SAX                         = 0.99 # on windows it has 0.96 and thinks it is up to date
@@ -171,7 +163,6 @@ XML::Generator::PerlData         = 0
 XML::SAX::Writer                 = 0
 
 
-# Task::Kensho::WebDev  Task::Catalyst  and more
 Catalyst                                        = 5.80
 Catalyst::Action::REST                          = 0
 Catalyst::ActionRole::ACL                       = 0
@@ -213,26 +204,22 @@ XML::Atom                                       = 0
 MIME::Types                                     = 0
 
 
-# Task::Kensho::WebCrawling
 HTTP::Lite                                      = 0
 LWP::UserAgent                                  = 5.815
 LWP::Simple                                     = 0
 WWW::Mechanize                                  = 0
 WWW::Mechanize::TreeBuilder                     = 0
 
-# Task::Kensho::DBDev
 DBI                                             = 1.616
 DBD::SQLite                                     = 1.35
 DBIx::Class                                     = 0
 DBIx::Class::Schema::Loader                     = 0
 SQL::Translator                                 = 0
 
-# Task::Kensho::ExcelCSV
 Text::CSV_XS                                    = 0
 Spreadsheet::ParseExcel::Simple                 = 0
 Spreadsheet::WriteExcel::Simple                 = 0
 
-# Task::Kensho::ModuleDev
 Dist::Zilla                                     = 0
 Module::Install                                 = 0
 Devel::NYTProf                                  = 0
@@ -246,42 +233,33 @@ Pod::Readme                                     = 0
 CPAN::Uploader                                  = 0
 
 
-# Task::Kensho::Email
 Email::Simple                                   = 0
 Email::Valid                                    = 0
 Email::Sender                                   = 0
 Email::MIME::Kit                                = 0
 
-# Task::Kensho::Dates
 DateTime                                        = 0
 Date::Tiny                                      = 0
 Time::Tiny                                      = 0
 DateTime::Tiny                                  = 0
 # Time::ParseDate                                 = 0 # Time-modules-2011.0517 failed on Windows
 
-# Task::Kensho::Scalability
 CHI                                             = 0
 
-# Task::Kensho::Config
 Config::Any                                     = 0
 Config::General                                 = 0
 
 
-# Task::Kensho::CLI
 App::Ack                                        = 0
 # App::Nopaste                                    = 0 # one of its prereqs fails on Windows
 Devel::REPL                                     = 0
 Module::CoreList                                = 2.57
 # App::perlbrew                                   = 0 # 0.58 fails its tests on Windows
 
-# Task::Kensho::Hackery
 Smart::Comments                                 = 0
 Term::ProgressBar::Simple                       = 0
 IO::All                                         = 0
 
-# from DWIM perl-5.14.2.1-32bit-windows
-# Win32API::File          = 0.1200
-# Win32::UTCFileTime      = 1.52
 Compress::Raw::Zlib     = 2.042
 Compress::Raw::Bzip2    = 2.042
 # IO::Compress            = 2.042 # no on CPAN any more?
@@ -418,15 +396,15 @@ Crypt::CAST5_PP                  = 1.04
 Crypt::RIPEMD160                 = 0.05
 Crypt::Twofish                   = 2.14
 # Crypt::OpenPGP                   = 1.06
-Module::Signature                = 0.68
+# Module::Signature                = 0.70 # needs Math::Pari
 Task::Weaken                     = 1.04
 SOAP::Lite                       = 0.714
-# SOAP::Transport::FTP      = 0
-# SOAP::Transport::TCP      = 0
-# SOAP::Transport::JABBER   = 0
-# SOAP::Transport::MQ       = 0
-# MIME::Parser              = 0
-# DIME::Tools               = 0
+# SOAP::Transport::FTP             = 0
+# SOAP::Transport::TCP             = 0
+# SOAP::Transport::JABBER          = 0
+# SOAP::Transport::MQ              = 0
+# MIME::Parser                     = 0
+# DIME::Tools                      = 0
 # Alien::Tidyp                     = 1.4.7  # v1.4.7 ???
 IO::Interactive                  = 0.0.6
 # Compress::Raw::Lzma              = 2.042
