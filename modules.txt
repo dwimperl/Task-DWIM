@@ -36,7 +36,7 @@ File::Basename                    = 0
 File::Glob                        = 0
 # File::Glob::Windows               = 0.1.3 if win32
 File::Copy::Recursive             = 0.37
-File::Find::Rule                  = 0.30
+File::Find::Rule                  = 0.33
 File::HomeDir                     = 0.98
 File::Path                        = 2.08
 File::Remove                      = 1.51
@@ -45,7 +45,7 @@ File::Spec                        = 3.2701
 File::Spec::Functions             = 3.2701
 File::Temp                        = 0.20
 File::Which                       = 1.09
-File::pushd                       = 1.00
+File::pushd                       = 1.001
 FindBin                           = 0
 HTML::Entities                    = 3.57
 HTML::Parser                      = 3.69
@@ -61,7 +61,7 @@ Module::Build                     = 0.3800
 Module::Manifest                  = 0.07
 ORLite                            = 1.96
 ORLite::Migrate                   = 1.10
-Params::Util                      = 0.33
+Params::Util                      = 1.04
 Parse::ErrorString::Perl          = 0.14
 Parse::ExuberantCTags             = 1.00
 Pod::Functions                    = 0
@@ -85,11 +85,11 @@ Text::Diff                        = 1.41
 Text::FindIndent                  = 0.10
 Text::Patch                       = 1.8
 URI                               = 1.59
-YAML::Tiny                        = 1.32
+YAML::Tiny                        = 1.50
 Test::Warn                        = 0.24
 Test::MockObject                  = 1.09
 Test::Script                      = 1.07
-Test::Exception                   = 0.27
+Test::Exception                   = 0.31
 IO::Scalar                        = 0
 
 
@@ -107,9 +107,9 @@ Test::Pod                        = 0
 Test::Pod::Coverage              = 0
 Test::Memory::Cycle              = 0
 Devel::Cover                     = 0
-Test::Deep                       = 0
+Test::Deep                       = 0.108
 Test::Requires                   = 0
-Test::NoWarnings                 = 0.084
+Test::NoWarnings                 = 1.03
 
 # Task::Kensho::Logging
 Log::Dispatch                    = 0
@@ -117,9 +117,9 @@ Log::Log4perl                    = 0
 Log::Contextual                  = 0
 
 # Task::Kensho::Excpetions
-Try::Tiny
+Try::Tiny                        = 0
 #TryCatch                         = 0 # 1.003000 fails
-autodie
+autodie                          = 0
 
 # Task::Kensho::OOP   Task::Moose
 MooseX::StrictConstructor        = 0
@@ -164,9 +164,9 @@ Pod::Coverage::Moose             = 0
 POE                              = 0
 
 # Task::Kensho::XML
-XML::LibXML                      = 0
-XML::LibXSLT                     = 0
-XML::SAX                         = 0
+XML::LibXML                      = 1.88
+XML::LibXSLT                     = 1.75
+XML::SAX                         = 0.99
 XML::Generator::PerlData         = 0
 XML::SAX::Writer                 = 0
 
@@ -348,39 +348,27 @@ LWP::Online             = 1.08
 Parse::Binary           = 0.11
 # Math::Pari              = 2.01080605 # hard to install, let's wait with this
 #Math::BigInt::GMP 1.37
-#XML::Parser 2.41
-#XML::NamespaceSupport 1.11
-#XML::SAX::Base 1.08
-#XML::SAX 0.99
-#XML::LibXML 1.88
-#XML::LibXSLT 1.75
-#XML::Simple 2.18
-#Win32::Exe 0.17
-#PAR::Dist 0.48
-#PAR::Dist::FromPPD 0.03
-#PAR::Dist::InstallPPD 0.02
-#Tree::DAG_Node 1.06
-#Sub::Uplevel 0.22
-#Test::Warn 0.23
-#Test::Tester 0.107
-#Test::NoWarnings 1.03
-#Test::Deep 0.108
-#IO::stringy 2.110
-#Test::Exception 0.31
-#DBM::Deep 2.0004
-#YAML::Tiny 1.50
-#PAR 1.002
-#PAR::Repository::Query 0.14
-#PAR::Repository::Client 0.25
-#Number::Compare 0.03
-#File::Find::Rule 0.33
-#Data::Compare 1.22
-#File::chmod 0.32
-#Params::Util 1.04
-#CPAN::Checksums 2.08
-#CPAN::Inject 1.13
-#File::pushd 1.001
-#pler 1.06
+XML::Parser             = 2.41
+XML::NamespaceSupport   = 1.11
+XML::SAX::Base          = 1.08
+XML::Simple             = 2.18
+PAR::Dist               = 0.48
+PAR::Dist::FromPPD      = 0.03
+PAR::Dist::InstallPPD   = 0.02
+Tree::DAG_Node          = 1.06
+Sub::Uplevel            = 0.22
+Test::Tester            = 0.107
+IO::Stringy             = 2.110
+DBM::Deep               = 2.0004
+PAR                     = 1.002
+PAR::Repository::Query  = 0.14
+PAR::Repository::Client = 0.25
+Number::Compare         = 0.03
+Data::Compare           = 1.22
+File::chmod             = 0.32
+CPAN::Checksums         = 2.08
+CPAN::Inject            = 1.13
+pler                    = 1.06
 #pip 1.19
 #DBI 1.616
 #DBD::SQLite 1.33

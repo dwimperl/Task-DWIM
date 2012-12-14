@@ -12,6 +12,7 @@ sub read_modules {
         next if $line =~ /^\s*(#.*)?$/;
         $line =~ s/\s*#.*//;
         my ($name, $version) = split /\s*=\s*/, $line;
+        die "No version in '$line'" if not defined $version;
         if (exists $modules{$name}) {
             die "Module '$name' has 2 entries. One with '$modules{$name}' and the other one with '$version'";
         }
