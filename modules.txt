@@ -166,7 +166,7 @@ POE                              = 0
 # Task::Kensho::XML
 XML::LibXML                      = 1.88
 XML::LibXSLT                     = 1.75
-XML::SAX                         = 0.99
+# XML::SAX                         = 0.99 # on windows it has 0.96 and thinks it is up to date
 XML::Generator::PerlData         = 0
 XML::SAX::Writer                 = 0
 
@@ -366,7 +366,7 @@ PAR::Repository::Client          = 0.25
 Number::Compare                  = 0.03
 Data::Compare                    = 1.22
 File::chmod                      = 0.32
-CPAN::Checksums                  = 2.08
+# CPAN::Checksums                  = 2.08
 CPAN::Inject                     = 1.13
 pler                             = 1.06
 pip                              = 1.19
@@ -387,7 +387,7 @@ Imager                           = 0.86
 # Crypt::SSLeay                    = 0.58
 # Digest::HMAC                     = 1.03
 # Net::SSLeay                      = 1.42
-IO::Socket::SSL                  = 1.49
+# IO::Socket::SSL                  = 1.49
 Net::SMTP::TLS                   = 0.12
 Mozilla::CA                      = 20111025
 LWP::Protocol::https             = 6.02
