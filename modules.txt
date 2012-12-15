@@ -619,3 +619,5 @@ YAML                                            = 0.77
 YAML::Syck                                      = 0
 YAML::Tiny                                      = 1.50
 YAML::XS                                        = 0.38 # YAML-LibYAML-0.38
+Test::TinyMocker                                = 0.03 # pod test fails on Windows
+MetaCPAN::API                                   = 0.43
