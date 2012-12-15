@@ -4,6 +4,7 @@ Win32                                           = 0.31
 Win32::API                                      = 0.64
 Win32API::File                                  = 0.1200
 Win32API::Registry                              = 0.32
+Win32::Clipboard                                = 0.56
 Win32::Console                                  = 0.09 # no tests supplied
 Win32::Daemon                                   = 20110117
 Win32::Env                                      = 0.03
