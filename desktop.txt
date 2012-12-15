@@ -5,4 +5,3 @@ Padre::Plugin::PerlTidy                         = 0.21
 Wx                                              = 0.9903
 Wx::Perl::ProcessStream                         = 0.30
 Wx::Scintilla                                   = 0.36
-
