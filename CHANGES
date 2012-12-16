@@ -1,4 +1,7 @@
 
+v0.05 2012.12.16
+    Added lots of modules listed in DWIM Perl for Windows
+
 v0.04 2012.12.14
     Add all the non-gui and not threaded prerequisites of Padre
     Add Task::Kensho::Email

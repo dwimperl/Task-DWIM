@@ -2,7 +2,7 @@ package Task::DWIM;
 
 use 5.008;
 use strict;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 my %modules;
 
