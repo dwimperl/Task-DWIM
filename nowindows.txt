@@ -1,0 +1,3 @@
+App::Nopaste                                    = 0.33 # one of its prereqs fails on Windows
+App::perlbrew                                   = 0 # 0.58 fails its tests on Windows
+

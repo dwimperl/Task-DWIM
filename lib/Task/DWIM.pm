@@ -10,6 +10,8 @@ sub get_modules {
     read_modules('modules.txt');
     if ($^O eq 'MSWin32') {
         read_modules('windows.txt');
+    } else {
+        read_modules('nowindows.txt');
     }
 
     return %modules;
