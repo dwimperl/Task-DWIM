@@ -678,6 +678,7 @@ Variable::Magic                                 = 0.48
 version                                         = 0.95
 warnings::illegalproto                          = 0.001000
 Web::Simple                                     = 0.012
+WebService::GData::YouTube                      = 0.0501 
 WWW::Mechanize                                  = 1.72
 WWW::Mechanize::TreeBuilder                     = 1.10003
 WWW::Pastebin::PastebinCom::Create              = 0.004
