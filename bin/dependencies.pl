@@ -33,7 +33,7 @@ my %modules = (
 
 foreach my $name (sort keys %modules) {
     next if $data->{modules}{$name} and not $opt{update}; #already collected
-    process_module('Pod::Escapes');
+    process_module($name);
 
     #my $module   = $mcpan->module( $name );
     #my $dist     = $mcpan->release( distribution => $module->{distribution} );
@@ -62,12 +62,16 @@ sub process_distro {
     say STDERR "Processing distro $name";
 
     try {
-        my $r = $mcpan->fetch( 'release/_search',
-            q => 'distribution:Test-Simple AND status:latest',
-            size => 1,
-            fields => 'distribution,dependency,version,dowload_url', # license,archive
-        );
-        $data->{distros}{$name} = $r->{hits}{hits}[0]{fields};
+        #my $r = $mcpan->fetch( 'release/_search',
+        #    q => 'distribution:Test-Simple AND status:latest',
+        #    size => 1,
+        #    fields => 'distribution,dependency,version,dowload_url', # license,archive
+        #);
+        #$data->{distros}{$name} = $r->{hits}{hits}[0]{fields};
+        my $r = $mcpan->release( distribution => $name );
+        for my $field (qw(distribution dependency version dowload_url)) { # license,archive
+            $data->{distros}{$name}{$field} = $r->{$field};
+        }
     } catch {
         warn "Exception: $_";
     };
