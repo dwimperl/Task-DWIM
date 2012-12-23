@@ -8,4 +8,6 @@ Class::MakeMethods                              = 1.01
 Class::Method::Modifiers                        = 1.12
 Class::Singleton                                = 1.4
 Class::XSAccessor                               = 1.13
+Object::Accessor                                = 0.42
+Object::Signature                               = 1.07
 

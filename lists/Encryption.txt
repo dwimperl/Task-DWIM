@@ -1,0 +1,24 @@
+# Crypt::Blowfish                                 = 2.12
+Crypt::CAST5_PP                                 = 1.04
+Crypt::CBC                                      = 2.30
+Crypt::DES                                      = 2.05
+Crypt::DES_EDE3                                 = 0.01
+# Crypt::DH                                       = 0.06
+# Crypt::DSA                                      = 1.17
+# Crypt::IDEA                                     = 1.08
+# Crypt::OpenPGP                                  = 1.06
+# Crypt::Primes                                   = 0.50
+# Crypt::Random                                   = 1.25
+# Crypt::RC4                                      = 2.02 # TODO: check tests
+# Crypt::Rijndael                                 = 1.09
+Crypt::RIPEMD160                                = 0.05
+# Crypt::RSA                                      = 1.99
+# Crypt::SSLeay                                   = 0.58
+Crypt::Twofish                                  = 2.14
+Digest                                          = 1.17
+# Digest::HMAC                                    = 1.03
+Digest::MD2                                     = 2.03
+Digest::Perl::MD5                               = 1.8
+Digest::SHA1                                    = 2.13
+Digest::SHA                                     = 5.63
+

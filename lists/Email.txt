@@ -10,4 +10,5 @@ Email::Sender                                   = 0.110003  # Task-Kensho-Email-
 Email::Simple                                   = 2.101     # Task-Kensho-Email-0.28
 Email::Valid                                    = 0.187     # Task-Kensho-Email-0.28
 Mail::Address                                   = 2.08 # supplied by MailTools-2.08
+MIME::Lite                                      = 3.028
 

@@ -13,11 +13,13 @@ sub get_modules {
     read_modules('CLI.txt');          # Task-Kensho-CLI-0.29
     read_modules('Config.txt');       # Task-Kensho-Config-0.28
     read_modules('CPAN.txt');         # Task-Kensho-ModuleDev-0.28
+    read_modules('Compression.txt');  #
     read_modules('Dancer.txt');       #
     read_modules('Database.txt');     # Task-Kensho-DBDev-0.28
     read_modules('DateTime.txt');     # Task-Kensho-Dates-0.28
     read_modules('DistZilla.txt');    # Task-Kensho-ModuleDev-0.28
     read_modules('Email.txt');        # Task-Kensho-Email-0.28
+    read_modules('Encryption.txt');   #
     read_modules('Exceptions.txt');   # Task-Kensho-Exceptions-0.28
     # Task-Kensho-Hackery-0.28 in various places
     read_modules('Logging.txt');      # Task-Kensho-Logging-0.01
@@ -25,6 +27,7 @@ sub get_modules {
     read_modules('Moose.txt');        # Task-Kensho-OOP-0.28 -> Task-Moose-0.03 (TryCatch moved to Exceptions)
     read_modules('OOP.txt');          #
     # Task-Kensho-Scalability-0.28 (CHI)
+    read_modules('Serialization.txt');#
     read_modules('Spreadsheet.txt');  # Task-Kensho-ExcelCSV-0.28
     read_modules('Test.txt');         # Task-Kensho-Testing-0.29
     # Task-Kensho-Toolchain-0.28 (App::cpanminus  local::lib version)
