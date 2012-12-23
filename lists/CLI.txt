@@ -1,0 +1,17 @@
+App::Ack                                        = 1.96 # Task-Kensho-CLI-0.29
+App::Cmd                                        = 0.318
+# App::Nopaste   NoWindows
+# App::perlbrew  NoWindows
+AppConfig                                       = 1.66
+App::cpanminus                                  = 1.5007
+App::cpanoutdated                               = 0.20
+App::pmuninstall                                = 0.29
+Devel::REPL                                     = 1.003012 # Task-Kensho-CLI-0.29
+Getopt::Long::Descriptive                       = 0.090
+Term::ANSIColor                                 = 3.01
+Term::ProgressBar::Simple                       = 0.03 # Task-Kensho-Hackery-0.28
+Term::ProgressBar                               = 2.13
+# TermReadKey                                     = 2.30.02 # not on CPAN?
+Term::ReadLine                                  = 1.10
+# Term::ReadLine::Perl                            = 1.0303 # test failed
+

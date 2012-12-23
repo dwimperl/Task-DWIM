@@ -1,12 +1,11 @@
-App::Nopaste                                    = 0.33 # one of its prereqs fails on Windows
-App::perlbrew                                   = 0 # 0.58 fails its tests on Windows
+App::Nopaste                                    = 0.33 # one of its prereqs fails on Windows  # Task-Kensho-CLI-0.29
+App::perlbrew                                   = 0 # 0.58 fails its tests on Windows  # Task-Kensho-CLI-0.29
 Archive::Extract                                = 0.60
 CatalystX::REPL                                 = 0 # one of the prereqs (IO::Tty) cannot be installed on Windows
 Compress::Raw::Lzma                             = 2.059 # needs liblzma::dev on Linux
 IO::Pty                                         = 1.10 # not on Windows
 IPC::ShareLite                                  = 0 # does not work on Windows
 local::lib                                      = 0  # ??
-MooseX::Workers                                 = 0  # test seems to be stuck on Windows
 POE::Component::Client::Keepalive               = 0 # POE-Component-Resolver-0.921 failed on Windows (RT reported)
 Starman                                         = 0  # IMHO does not run on Windows
 Sys::SigAction                                  = 0.15 # OS unsupported

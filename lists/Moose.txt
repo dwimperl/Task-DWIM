@@ -49,5 +49,7 @@ MooseX::Types::Path::Class                      = 0.05
 MooseX::Types::Perl                             = 0.101341
 MooseX::Types::Set::Object                      = 0.03
 MooseX::Types::Structured                       = 0.28
+# MooseX::Workers                                 = 0  # test seems to be stuck on Windows
 Mouse                                           = 0.97
-
+namespace::autoclean                            = 0.09
+Pod::Coverage::Moose                            = 0

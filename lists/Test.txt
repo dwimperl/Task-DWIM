@@ -54,7 +54,6 @@ Test::use::ok                                   = 0.02
 Test::Warn                                      = 0.24
 Test::Without::Module                           = 0.17
 Test::WWW::Mechanize                            = 1.38
-Test::WWW::Mechanize::Catalyst                  = 0
 Test::WWW::Selenium                             = 1.32
 # Test::WWW::Simple                               = 0 # test failed on Linux
 Text::Diff                                      = 1.41

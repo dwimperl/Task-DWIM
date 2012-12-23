@@ -1,0 +1,13 @@
+Email::Abstract                                 = 3.004
+Email::Address                                  = 1.895
+Email::Date::Format                             = 1.002
+Email::MessageID                                = 1.402
+Email::MIME                                     = 1.910
+Email::MIME::ContentType                        = 1.015
+Email::MIME::Encodings                          = 1.313
+Email::MIME::Kit                                = 2.102010  # Task-Kensho-Email-0.28
+Email::Sender                                   = 0.110003  # Task-Kensho-Email-0.28
+Email::Simple                                   = 2.101     # Task-Kensho-Email-0.28
+Email::Valid                                    = 0.187     # Task-Kensho-Email-0.28
+Mail::Address                                   = 2.08 # supplied by MailTools-2.08
+

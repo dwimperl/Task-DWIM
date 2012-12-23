@@ -26,4 +26,8 @@ CatalystX::Component::Traits                    = 0.16
 CatalystX::LeakChecker                          = 0
 CatalystX::Profile                              = 0
 CatalystX::SimpleLogin                          = 0
-
+FCGI                                            = 0.74
+# FCGI::ProcManager                               = 0  # failed on windows
+# Starman in the NoWindows package
+Test::WWW::Mechanize::Catalyst                  = 0
+# local::lib in the NoWindows package

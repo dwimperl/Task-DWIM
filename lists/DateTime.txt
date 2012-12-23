@@ -1,11 +1,14 @@
 Date::Format                                    = 2.24 # supplied by TimeDate-1.20
-DateTime                                        = 0.72
+DateTime                                        = 0.72 # Task-Kensho-Dates-0.28
 DateTime::Format::Atom                          = 1.0.2 # v in filename, install before XML::Atom
 DateTime::Format::Mail                          = 0.3001
 DateTime::Format::RFC3339                       = 1.0.5 # v in filename
 DateTime::Format::W3CDTF                        = 0.06
 DateTime::Locale                                = 0.45
 DateTime::TimeZone                              = 1.42
-DateTime::Tiny                                  = 1.04
-Date::Tiny                                      = 1.04
+DateTime::Tiny                                  = 1.04 # Task-Kensho-Dates-0.28
+Date::Tiny                                      = 1.04 # Task-Kensho-Dates-0.28
+Time::HiRes                                     = 1.9724
+# Time::ParseDate                                 = 0 # Time-modules-2011.0517 failed on Windows  # Task-Kensho-Dates-0.28
+Time::Tiny                                      = 1.05 # Task-Kensho-Dates-0.28
 

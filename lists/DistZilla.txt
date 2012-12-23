@@ -1,5 +1,5 @@
 Dist::CheckConflicts                            = 0.02
-Dist::Zilla                                     = 4.300028
+Dist::Zilla                                     = 4.300028 # Task-Kensho-ModuleDev-0.28
 Dist::Zilla::Plugin::AutoPrereqs                = 0
 Dist::Zilla::Plugin::Bugtracker                 = 0
 Dist::Zilla::Plugin::Git::Tag                   = 0

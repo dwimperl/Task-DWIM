@@ -1,0 +1,6 @@
+Log::Contextual                                 = 0.004001
+Log::Dispatch                                   = 2.29
+Log::Dispatch::Array                            = 1.001
+Log::Dispatch::Configurator                     = 1.00
+Log::Dispatchouli                               = 2.005
+Log::Log4perl                                   = 1.35

@@ -1,0 +1,6 @@
+Config::Any                                     = 0.23 # Task-Kensho-Config-0.28
+Config::General                                 = 2.50 # Task-Kensho-Config-0.28
+# Config::GitLike                                 = 1.08 # test failed, sent to CPAN Testers
+Config::INI                                     = 0.019
+Config::Tiny                                    = 2.14
+

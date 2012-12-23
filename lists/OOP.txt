@@ -1,0 +1,11 @@
+# See also Task::DWIM::Moose
+Class::Accessor                                 = 0.34
+Class::Accessor::Chained                        = 0.01
+Class::Accessor::Grouped                        = 0.10006
+Class::Adapter                                  = 1.08
+Class::Base                                     = 0.04
+Class::MakeMethods                              = 1.01
+Class::Method::Modifiers                        = 1.12
+Class::Singleton                                = 1.4
+Class::XSAccessor                               = 1.13
+

@@ -1,0 +1,6 @@
+autodie                                         = 2.13
+Exception::Base                                 = 0.2401
+Exception::Class                                = 1.32
+# TryCatch                                         = 0 # 1.003000 fails
+Try::Tiny                                       = 0.11
+
