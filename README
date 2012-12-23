@@ -2,16 +2,16 @@ Partial list of modules for http://dwimperl.com/
 
 
 
+To release run bin/release.pl It will create all the Task::DWIM::* packages
+and Task::DWIM itself.
+
+
+
 TODO
 ======
 
-Create Task::DWIM loading all the other Task::DWIM::* modules
-
 Further remove entries from the Modules.txt
 Further split it into parts (max 100 modules per Task package).
-
-CLI ? (command line tools)
-
 
 Improve the script fetching the dependency tree so it can be ammended
 manually when some optional or platform related dependencies are encountered.
