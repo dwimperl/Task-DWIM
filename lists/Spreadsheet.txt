@@ -1,4 +1,5 @@
 DBD::CSV                                        = 0.36
+Excel::Writer::XLSX                             = 0.46
 Spreadsheet::ParseExcel                         = 0.59
 Spreadsheet::ParseExcel::Simple                 = 0
 Spreadsheet::Read                               = 0.47

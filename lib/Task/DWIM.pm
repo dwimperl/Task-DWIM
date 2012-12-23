@@ -8,6 +8,7 @@ my %modules;
 
 sub get_modules {
     read_modules('Catalyst.txt');
+    read_modules('CPAN.txt');
     read_modules('Dancer.txt');
     read_modules('Database.txt');
     read_modules('DateTime.txt');
@@ -16,6 +17,7 @@ sub get_modules {
     read_modules('Moose.txt');
     read_modules('Spreadsheet.txt');
     read_modules('Test.txt');
+    read_modules('Web.txt');
     read_modules('XML.txt');
     #read_modules('tasks.txt');
     if ($^O eq 'MSWin32') {

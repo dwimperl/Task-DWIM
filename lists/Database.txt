@@ -10,6 +10,8 @@ DBIx::Class::Schema::Loader                     = 0.07033
 DBIx::RunSQL                                    = 0.07
 DBIx::Simple                                    = 1.35
 DBM::Deep                                       = 2.0008
+ORLite                                          = 1.98
+ORLite::Migrate                                 = 1.10
 SQL::Abstract                                   = 1.72
 SQL::Translator                                 = 0.11016
 
