@@ -7,7 +7,9 @@ use Test::More;
 use Task::DWIM;
 
 my %modules = Task::DWIM::get_modules();
-plan tests => 2 * scalar keys %modules;
+plan tests => 1 + 2 * scalar keys %modules;
+
+ok(1, 'loaded Task::DWIM');
 
 my %SKIP = (
     'Readonly::XS' => 'Readonly::XS is not stand alone module.',
