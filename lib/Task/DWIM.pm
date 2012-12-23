@@ -12,16 +12,19 @@ sub get_modules {
     read_modules('Database.txt');
     read_modules('DateTime.txt');
     read_modules('DistZilla.txt');
-    read_modules('modules.txt');
+    read_modules('Modules.txt');
     read_modules('Moose.txt');
     read_modules('Spreadsheet.txt');
     read_modules('Test.txt');
     read_modules('XML.txt');
     #read_modules('tasks.txt');
     if ($^O eq 'MSWin32') {
+        # Currently only the Windows version supports the desktop option
+        # (it needs a threaded perl)
+        read_modules('Desktop.txt');
         read_modules('Windows.txt');
     } else {
-        read_modules('nowindows.txt');
+        read_modules('NoWindows.txt');
     }
 
     return %modules;
