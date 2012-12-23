@@ -1,12 +1,1 @@
-# Task::Kensho                                    = 0.28
-Task::Kensho::Async                             = 0.28
-Task::Kensho::Config                            = 0.28
-Task::Kensho::Email                             = 0.28
-# Task::Kensho::Exceptions                        = 0.28 # TryCatch cannot be installed
-Task::Kensho::Logging                           = 0.01
-Task::Kensho::OOP                               = 0.28
-Task::Kensho::Testing                           = 0.28
-Task::Kensho::Toolchain                         = 0.28
-Task::Kensho::WebCrawling                       = 0.28
-Task::Kensho::XML                               = 0.28
-Task::Weaken                                    = 1.04
+#placeholder to the list of Task::DWIM::* files of Task::DWIM

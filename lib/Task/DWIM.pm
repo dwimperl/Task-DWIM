@@ -34,7 +34,8 @@ sub get_modules {
     read_modules('Web.txt');          # Task-Kensho-WebDev-0.29
     read_modules('WebClient.txt');    # Task-Kensho-WebCrawling-0.28
     read_modules('XML.txt');          # Task-Kensho-XML-0.28
-    #read_modules('tasks.txt');
+
+    read_modules('tasks.txt');
     if ($^O eq 'MSWin32') {
         # Currently only the Windows version supports the desktop option
         # (it needs a threaded perl)

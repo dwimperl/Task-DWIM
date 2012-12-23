@@ -7,11 +7,17 @@ use File::Path qw(mkpath);
 use File::Temp qw(tempdir);
 use File::Slurp qw(read_file write_file);
 
+use lib 'lib';
+use Task::DWIM;
+
 opendir my $dh, 'lists' or die;
 my $pwd = cwd();
 
 my $test = shift;
 
+my $version = Task::DWIM->VERSION;
+
+my @tasks;
 foreach my $file (readdir $dh) {
     next if $file eq '.' or $file eq '..';
     my $name = substr $file, 0, -4;
@@ -19,10 +25,12 @@ foreach my $file (readdir $dh) {
 
     print "\n\n******************Processing $name\n";
     my $dir = tempdir(CLEANUP => 1);
-    print "$dir\n";
+    #print "$dir\n";
     mkpath "$dir/lib/Task/DWIM" or die;
     mkdir  "$dir/t" or die;
     mkdir  "$dir/lists" or die;
+
+    push @tasks, $name;
 
     # create file "$dir/lib/Task/DWIM/$name.pm";
     my $module = read_file 'lib/Task/DWIM.pm';
@@ -45,6 +53,34 @@ foreach my $file (readdir $dh) {
     copy 'MANIFEST.SKIP', "$dir/" or dir $!;
     copy 'README', "$dir/" or dir $!;
 
+    build($dir);
+    #last;
+}
+
+{
+    print "\n\n****************** Creating Task::DWIM\n";
+    my $dir = tempdir(CLEANUP => 1);
+    mkpath "$dir/lib/Task" or die;
+    mkdir  "$dir/t" or die;
+    mkdir  "$dir/lists" or die;
+
+    open my $lf, '>', "$dir/lists/tasks.txt" or die "Could open file $!";
+    foreach my $t (@tasks) {
+        print $lf "Task::DWIM::$t  = $version\n";
+    }
+    close $lf or die;
+    copy 'MANIFEST.SKIP', "$dir/" or dir $!;
+    copy 'README', "$dir/" or dir $!;
+
+    copy 'lib/Task/DWIM.pm', "$dir/lib/Task/" or die $!;
+    copy 'Makefile.PL', $dir or die $!;
+    copy 't/00-load.t', "$dir/t/" or die $!;
+    build($dir);
+}
+
+sub build {
+    my ($dir) = @_;
+
     chdir $dir or die;
     system "$^X Makefile.PL" and die;
     system "make" and die;
@@ -57,7 +93,7 @@ foreach my $file (readdir $dh) {
 
     my ($gz_file) = glob "*.gz";
     move $gz_file, $pwd or die $!;
-
     chdir $pwd;
 }
+
 
