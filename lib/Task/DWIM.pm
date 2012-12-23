@@ -2,6 +2,7 @@ package Task::DWIM;
 
 use 5.008;
 use strict;
+use warnings;
 our $VERSION = '0.06';
 
 my %modules;
@@ -51,7 +52,7 @@ sub get_modules {
 sub read_modules {
     my ($file) = @_;
 
-    my $file = "lists/$file";
+    $file = "lists/$file";
 
     return if not -e '.git' and not -e $file;
 
