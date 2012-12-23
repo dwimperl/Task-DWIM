@@ -1,0 +1,11 @@
+Date::Format                                    = 2.24 # supplied by TimeDate-1.20
+DateTime                                        = 0.72
+DateTime::Format::Atom                          = 1.0.2 # v in filename, install before XML::Atom
+DateTime::Format::Mail                          = 0.3001
+DateTime::Format::RFC3339                       = 1.0.5 # v in filename
+DateTime::Format::W3CDTF                        = 0.06
+DateTime::Locale                                = 0.45
+DateTime::TimeZone                              = 1.42
+DateTime::Tiny                                  = 1.04
+Date::Tiny                                      = 1.04
+

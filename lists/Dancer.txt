@@ -1,0 +1,9 @@
+Dancer                                          = 1.3092
+Dancer::Plugin::Auth::RBAC                      = 1.110720
+Dancer::Plugin::Auth::Twitter                   = 0.02
+Dancer::Plugin::Captcha::SecurityImage          = 0.10
+Dancer::Plugin::Database                        = 2.03
+Dancer::Plugin::DBIC                            = 0.1601
+Dancer::Plugin::FlashMessage                    = 0.314
+Dancer::Plugin::SimpleCRUD                      = 0.80
+Dancer::Plugin::SiteMap                         = 0.11

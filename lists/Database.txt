@@ -1,0 +1,15 @@
+# DBD::ADO                                        = 2.99
+# DBD::mysql                                      = 4.020
+# DBD::ODBC                                       = 1.31
+# DBD::Pg                                         = 2.18.1
+DBD::SQLite                                     = 1.35
+# DB_File                                         = 1.824
+DBI                                             = 1.616
+DBIx::Class                                     = 0.08204
+DBIx::Class::Schema::Loader                     = 0.07033
+DBIx::RunSQL                                    = 0.07
+DBIx::Simple                                    = 1.35
+DBM::Deep                                       = 2.0008
+SQL::Abstract                                   = 1.72
+SQL::Translator                                 = 0.11016
+

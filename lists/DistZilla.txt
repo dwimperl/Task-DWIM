@@ -1,0 +1,14 @@
+Dist::CheckConflicts                            = 0.02
+Dist::Zilla                                     = 4.300028
+Dist::Zilla::Plugin::AutoPrereqs                = 0
+Dist::Zilla::Plugin::Bugtracker                 = 0
+Dist::Zilla::Plugin::Git::Tag                   = 0
+Dist::Zilla::Plugin::InstallGuide               = 0
+Dist::Zilla::Plugin::ModuleBuild                = 0
+Dist::Zilla::Plugin::PkgVersion                 = 0
+Dist::Zilla::Plugin::PodVersion                 = 0
+Dist::Zilla::Plugin::PruneFiles                 = 0
+Dist::Zilla::Plugin::Repository                 = 0
+Dist::Zilla::Plugin::Signature                  = 0
+Dist::Zilla::Plugin::Test::Perl::Critic         = 0
+Dist::Zilla::PluginBundle::Basic                = 0

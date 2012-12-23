@@ -1,0 +1,15 @@
+XML::Atom                                       = 0.41
+XML::Dumper                                     = 0.81
+XML::Feed                                       = 0.50
+XML::Generator::PerlData                        = 0.91
+XML::LibXML                                     = 2.0014
+XML::LibXSLT                                    = 1.75
+XML::NamespaceSupport                           = 1.11
+XML::Parser                                     = 2.41
+XML::RSS                                        = 1.49
+XML::SAX                                        = 0.99
+XML::SAX::Base                                  = 1.08
+XML::SAX::Writer                                = 0.53
+XML::Simple                                     = 2.18
+XML::Writer                                     = 0.615
+XML::XPath                                      = 1.13

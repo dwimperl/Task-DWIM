@@ -7,9 +7,19 @@ our $VERSION = '0.05';
 my %modules;
 
 sub get_modules {
+    read_modules('Catalyst.txt');
+    read_modules('Dancer.txt');
+    read_modules('Database.txt');
+    read_modules('DateTime.txt');
+    read_modules('DistZilla.txt');
     read_modules('modules.txt');
+    read_modules('Moose.txt');
+    read_modules('Spreadsheet.txt');
+    read_modules('Test.txt');
+    read_modules('XML.txt');
+    #read_modules('tasks.txt');
     if ($^O eq 'MSWin32') {
-        read_modules('windows.txt');
+        read_modules('Windows.txt');
     } else {
         read_modules('nowindows.txt');
     }
@@ -19,6 +29,8 @@ sub get_modules {
 
 sub read_modules {
     my ($file) = @_;
+
+    my $file = "lists/$file";
 
     open my $fh, '<', $file or die "Could not open '$file' $!";
     while (my $line = <$fh>) {
