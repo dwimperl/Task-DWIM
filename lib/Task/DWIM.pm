@@ -32,6 +32,8 @@ sub read_modules {
 
     my $file = "lists/$file";
 
+    return if not -e '.git' and not -e $file;
+
     open my $fh, '<', $file or die "Could not open '$file' $!";
     while (my $line = <$fh>) {
         chomp $line;
