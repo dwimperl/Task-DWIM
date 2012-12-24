@@ -43,5 +43,26 @@ Perl::Critic                                    = 1.117 # Task-Kensho-ModuleDev-
 Perl::Tidy                                      = 20101217 # Task-Kensho-ModuleDev-0.28
 Perl::Version                                   = 1.011 # Task-Kensho-ModuleDev-0.28
 Software::License                               = 0.103004 # Task-Kensho-ModuleDev-0.28
+Sort::Versions                                  = 1.5
+PAR                                             = 1.002
+PAR::Dist                                       = 0.48
+PAR::Dist::FromPPD                              = 0.03
+PAR::Dist::InstallPPD                           = 0.02
+PAR::Repository::Client                         = 0.25
+PAR::Repository::Query                          = 0.14
+Pod::Abstract                                   = 0.20
+Pod::Coverage                                   = 0.22
+# Pod::Coverage::CountParents has an undef version number and Devel::Cover is checking it sort of.
+Pod::Eventual                                   = 0.093330
+Pod::Functions                                  = 0
+Pod::Perldoc                                    = 3.15
+Pod::POM                                        = 0.27
 Pod::Readme                                     = 0 # Task-Kensho-ModuleDev-0.28
+Pod::Simple                                     = 3.23
+Pod::Simple::XHTML                              = 3.04
+PPI                                             = 1.215
+PPI::HTML                                       = 1.08
+PPIx::EditorTools                               = 0.15
+PPIx::Regexp                                    = 0.025
+PPIx::Utilities::Node                           = 1.001000
 

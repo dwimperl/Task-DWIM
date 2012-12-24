@@ -1,3 +1,4 @@
+Feed::Find                                      = 0.07
 HTTP::Lite                                      = 2.3 # Task-Kensho-WebCrawling-0.28
 LWP                                             = 6.04
 LWP::MediaTypes                                 = 6.02
@@ -6,6 +7,4 @@ LWP::UserAgent                                  = 0 # Task-Kensho-WebCrawling-0.
 LWP::Simple                                     = 0 # Task-Kensho-WebCrawling-0.28
 WWW::Mechanize                                  = 1.72 # Task-Kensho-WebCrawling-0.28
 WWW::Mechanize::TreeBuilder                     = 1.10003 # Task-Kensho-WebCrawling-0.28
-
-
 

@@ -1,0 +1,9 @@
+Math::BigInt                                    = 1.997
+Math::BigInt::FastCalc                          = 0.30
+# Math::BigInt::GMP                               = 1.37 # Can't link/include 'gmp.h', 'gmp'
+Math::Complex                                   = 1.59
+# Math::GMP                                       = 2.06 # GMP.xs:4:17: fatal error: gmp.h: No such file or directory
+# Math::MPC                                       = 0.91 # needs Math::MPFR
+# Math::MPFR                                      = 3.10 # needs gmp.h
+# Math::Pari                                      = 2.01080605 # hard to install, let's wait with this
+Math::Round                                     = 0.06

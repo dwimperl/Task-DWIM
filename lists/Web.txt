@@ -35,6 +35,7 @@ SOAP::Lite                                      = 0.714
 # SOAP::Transport::MQ                             = 0
 # SOAP::Transport::TCP                            = 0
 Template                                        = 2.24 # from Task-Kensho-WebDev-0.29
+Template::Tiny                                  = 0.12
 URI                                             = 1.59
 URI::Fetch                                      = 0.09
 URI::Find                                       = 20111103

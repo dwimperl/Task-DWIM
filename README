@@ -10,7 +10,9 @@ and Task::DWIM itself.
 TODO
 ======
 
-Further remove entries from the Modules.txt
+Further remove entries from the Modules.txt of modules that are dependencies
+and not really interesting to anyone excepe CPAN authors.
+
 Further split it into parts (max 100 modules per Task package).
 
 Improve the script fetching the dependency tree so it can be ammended
