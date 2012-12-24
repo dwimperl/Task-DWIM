@@ -13,8 +13,6 @@ use Task::DWIM;
 opendir my $dh, 'lists' or die;
 my $pwd = cwd();
 
-my $test = shift;
-
 my $version = Task::DWIM->VERSION;
 
 my @tasks;
@@ -53,7 +51,7 @@ foreach my $file (readdir $dh) {
     copy 'MANIFEST.SKIP', "$dir/" or dir $!;
     copy 'README', "$dir/" or dir $!;
 
-    build($dir);
+    build($dir, test => 1);
     #last;
 }
 
@@ -75,17 +73,20 @@ foreach my $file (readdir $dh) {
     copy 'lib/Task/DWIM.pm', "$dir/lib/Task/" or die $!;
     copy 'Makefile.PL', $dir or die $!;
     copy 't/00-load.t', "$dir/t/" or die $!;
-    build($dir);
+
+    # skip testing as the new Task::DWIM packages are not yet installed
+    # so this test would fail
+    build($dir, test => 0);
 }
 
 sub build {
-    my ($dir) = @_;
+    my ($dir, %params) = @_;
 
     chdir $dir or die;
     system "$^X Makefile.PL" and die;
     system "make" and die;
     system "make manifest" and die;
-    if ($test) {
+    if ($params{test}) {
         system "make test" and die;
     }
 
