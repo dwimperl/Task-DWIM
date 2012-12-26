@@ -1,3 +1,4 @@
+Business::PayPal                                = 0
 CGI                                             = 3.58
 CGI::FormBuilder::Source::Perl                  = 0  # from Task-Kensho-WebDev-0.29
 CGI::Simple                                     = 1.113
