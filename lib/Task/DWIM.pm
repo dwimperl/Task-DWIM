@@ -15,6 +15,7 @@ sub get_modules {
     read_modules('Config.txt');        # Task-Kensho-Config-0.28
     read_modules('CPAN.txt');          # Task-Kensho-ModuleDev-0.28
     read_modules('Compression.txt');   #
+    read_modules('Core.txt');          # A sublist of the Core (and dual life) modules
     read_modules('Dancer.txt');        #
     read_modules('Database.txt');      # Task-Kensho-DBDev-0.28
     read_modules('DateTime.txt');      # Task-Kensho-Dates-0.28

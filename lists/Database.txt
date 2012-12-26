@@ -6,6 +6,7 @@ DBD::SQLite                                     = 1.35
 # DB_File                                         = 1.824
 DBI                                             = 1.616
 DBIx::Class                                     = 0.08204
+DBIx::Class::Schema                             = 0
 DBIx::Class::Schema::Loader                     = 0.07033
 DBIx::RunSQL                                    = 0.07
 DBIx::Simple                                    = 1.35

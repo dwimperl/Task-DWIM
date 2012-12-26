@@ -75,7 +75,6 @@ IPC::Run3                                       = 0.044
 IPC::System::Simple                             = 1.21
 Lexical::Persistence                            = 1.020
 List::MoreUtils                                 = 0.33
-List::Util                                      = 1.25
 Locale::Codes                                   = 3.18
 Locale::Maketext                                = 1.19
 Locale::Msgfmt                                  = 0.15
