@@ -4,6 +4,7 @@ CGI::FormBuilder::Source::Perl                  = 0  # from Task-Kensho-WebDev-0
 CGI::Simple                                     = 1.113
 CHI                                             = 0.56
 CSS::Tiny                                       = 1.19
+Geo::IP                                         = 1.40
 HTML::Entities                                  = 3.57
 HTML::Form                                      = 6.00
 HTML::Parser                                    = 3.69
@@ -48,4 +49,3 @@ WWW::RobotRules                                 = 6.01
 WWW::Shorten::Bitly                             = 0
 XML::Atom                                       = 0.41 # from Task-Kensho-WebDev-0.29
 XML::RSS                                        = 1.49 # from Task-Kensho-WebDev-0.29
-
