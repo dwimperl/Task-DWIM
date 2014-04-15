@@ -10,7 +10,7 @@ use Config::Tiny;
 my %modules;
 
 sub get_modules {
-    read_modules('Linux.txt'); 
+    read_modules('Linux.txt');
 
     #read_modules('Async.txt');         # Task-Kensho-Async-0.28
     #read_modules('Catalyst.txt');      # Task-Kensho-WebDev-0.29 -> Task-Catalyst-4.02
@@ -65,7 +65,7 @@ sub read_modules {
     foreach my $name (keys %$config) {
         $modules{$name} = $config->{$name}{version};
     }
- 
+
     #open my $fh, '<', $file or die "Could not open '$file' $!";
     #while (my $line = <$fh>) {
     #    chomp $line;
