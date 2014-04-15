@@ -1,5 +1,3 @@
-Business::PayPal                                = 0
-CGI                                             = 3.58
 CGI::FormBuilder::Source::Perl                  = 0  # from Task-Kensho-WebDev-0.29
 CGI::Simple                                     = 1.113
 CSS::Tiny                                       = 1.19
@@ -35,7 +33,6 @@ SOAP::Lite                                      = 0.714
 # SOAP::Transport::JABBER                         = 0
 # SOAP::Transport::MQ                             = 0
 # SOAP::Transport::TCP                            = 0
-Template                                        = 2.24 # from Task-Kensho-WebDev-0.29
 Template::Tiny                                  = 0.12
 URI                                             = 1.59
 URI::Fetch                                      = 0.09
