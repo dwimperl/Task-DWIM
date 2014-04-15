@@ -4,7 +4,6 @@ Archive::Extract                                = 0.60 # (should be in Compressi
 CatalystX::REPL                                 = 0 # one of the prereqs (IO::Tty) cannot be installed on Windows
 Compress::Raw::Lzma                             = 2.059 # needs liblzma::dev on Linux
 Curses                                          = 1.28 # ??? Could this be really installed on Windows?
-Daemon::Control                                 = 0 # test fails on Windows and probably this modules never will run on Windows
 IO::Pty                                         = 1.10 # not on Windows
 IO::Socket::SSL                                 = 1.81
 IPC::ShareLite                                  = 0 # does not work on Windows

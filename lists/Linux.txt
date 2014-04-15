@@ -121,6 +121,13 @@ version = 3.65
 description = Handle Common Gateway Interface requests and responses 
 comment = Good old CGI, not recomended to new apps, but people still use it and it is being removed from core Perl
 
+[Daemon::Control]
+version = 0.001005 
+description = Create init scripts in Perl
+comment = used by Perl::Maven
+tags = Web, Sysadmin
+# test fails on Windows and probably this modules never will run on Windows
+
 
 # [Catalyst::Runtime]
 # version = 5.90062

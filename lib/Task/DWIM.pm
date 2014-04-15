@@ -99,7 +99,7 @@ Just a list of modules to be installed as part of the DWIM Perl distribution
 
 =head1 AUTHOR
 
-Gabor Szabo E<lt>szabgab@cpan.orgE<gt>
+Gabor Szabo L<http://szabgab.com>
 
 If you are interested, contact me to take over the maintenance.
 
@@ -109,7 +109,7 @@ L<Task>, L<http://dwimperl.com/>
 
 =head1 COPYRIGHT
 
-Copyright 2012 Gabor Szabo.
+Copyright 2012-2014 Gabor Szabo.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
