@@ -51,7 +51,7 @@ foreach my $file (readdir $dh) {
     copy 'MANIFEST.SKIP', "$dir/" or dir $!;
     copy 'README', "$dir/" or dir $!;
 
-    build($dir, test => 1);
+    build($dir, test => 0);
     #last;
 }
 
