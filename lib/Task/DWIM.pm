@@ -5,6 +5,8 @@ use strict;
 use warnings;
 our $VERSION = '0.07';
 
+use Config::Tiny;
+
 my %modules;
 
                                        # based on Task-Kensho-0.33
@@ -58,19 +60,24 @@ sub read_modules {
 
     return if not -e '.git' and not -e $file;
 
-    open my $fh, '<', $file or die "Could not open '$file' $!";
-    while (my $line = <$fh>) {
-        chomp $line;
-        next if $line =~ /^\s*(#.*)?$/;
-        $line =~ s/\s*#.*//;
-        my ($name, $version) = split /\s*=\s*/, $line;
-        die "No version in '$line'" if not defined $version;
-        if (exists $modules{$name}) {
-            die "Module '$name' has 2 entries. One with '$modules{$name}' and the other one with '$version'";
-        }
-        $modules{$name} = $version;
+    my $config = Config::Tiny->read( 'file.conf', 'utf8' );
+    foreach my $name (keys %$config) {
+        $modules{$name} = $config->{$name}{version};
     }
-    close $fh;
+ 
+    #open my $fh, '<', $file or die "Could not open '$file' $!";
+    #while (my $line = <$fh>) {
+    #    chomp $line;
+    #    next if $line =~ /^\s*(#.*)?$/;
+    #    $line =~ s/\s*#.*//;
+    #    my ($name, $version) = split /\s*=\s*/, $line;
+    #    die "No version in '$line'" if not defined $version;
+    #    if (exists $modules{$name}) {
+    #        die "Module '$name' has 2 entries. One with '$modules{$name}' and the other one with '$version'";
+    #    }
+    #    $modules{$name} = $version;
+    #}
+    #close $fh;
     return;
 }
 

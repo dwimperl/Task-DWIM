@@ -13,6 +13,5 @@ MooseX::Daemonize                               = 0.15  # test seems to fail on 
 MooseX::Role::Cmd                               = 0.10 # failed on windows see CPANTESTERS, (should be in Moose.txt)
 MooseX::Workers                                 = 0.16  # test seems to be stuck on Windows  (should be in Moose.txt)
 POE::Component::Client::Keepalive               = 0 # POE-Component-Resolver-0.921 failed on Windows (RT reported) (should be in Async.txt)
-Starman                                         = 0  # IMHO not planned to run on Windows (should be in Web.txt)
 Sys::SigAction                                  = 0.15 # OS unsupported
 

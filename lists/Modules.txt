@@ -52,7 +52,6 @@ File::Which                                     = 1.09
 Filter::Simple                                  = 0.87
 Format::Human::Bytes                            = 0.06
 # GD                                              = 2.46
-Hash::Merge                                     = 0.12
 Hash::Merge::Simple                             = 0.051
 Hash::MultiValue                                = 0.10
 Hash::Util::FieldHash::Compat                   = 0.03

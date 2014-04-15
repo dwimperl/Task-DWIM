@@ -21,6 +21,8 @@ foreach my $file (readdir $dh) {
     my $name = substr $file, 0, -4;
     next if $name !~ /^[A-Z]/;
 
+    next if $name ne 'Linux';
+
     print "\n\n******************Processing $name\n";
     my $dir = tempdir(CLEANUP => 1);
     #print "$dir\n";

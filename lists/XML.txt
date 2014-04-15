@@ -1,5 +1,4 @@
 XML::Dumper                                     = 0.81
-XML::Feed                                       = 0.50
 XML::Generator::PerlData                        = 0.91
 XML::LibXML                                     = 2.0014
 XML::LibXSLT                                    = 1.75

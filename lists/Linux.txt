@@ -1,0 +1,187 @@
+[Config::Tiny]
+version = 2.20
+description = Read/Write .ini style files with as little code as possible
+comment = Very handy for configuration files
+
+[Starman]
+version = 0.4009
+description = High-performance preforking PSGI/Plack web server
+comment = IMHO not planned to run on Windows
+
+[Dancer]
+version = 1.3123 
+description = lightweight yet powerful web application framework
+
+[Catalyst::Runtime]
+version = 5.90062
+descriptin = The Catalyst Framework Runtime
+comment = MetaCPAN web uses it
+
+[CatalystX::RoleApplicator]
+version = 0.005
+description = apply roles to your Catalyst application-related classes
+comment = MetaCPAN web uses it
+
+[Plack::Session]
+version = 0.21
+descriptin = Middleware for session management
+comment = MetaCPAN web uses it
+
+
+[Catalyst::TraitFor::Request::REST::ForBrowsers]
+version = 1.14
+description = A request trait for REST and browsers
+comment = MetaCPAN web
+
+[DateTime::Format::HTTP]
+version = 0.40
+description = Date conversion routines
+comment = MetaCPAN web
+
+[Regexp::Common::time]
+version = 0.05
+description = Date and time regexps
+comment = MetaCPAN web
+
+[Catalyst::Plugin::Authentication]
+version = 0.10023
+description = Infrastructure plugin for the Catalyst authentication framework. 
+comment = MetaCPAN web
+
+[Catalyst::Plugin::Static::Simple]
+version = 0.31
+description = Make serving static pages painless.
+comment = MetaCPAN Web
+
+[Catalyst::Plugin::ConfigLoader]
+version = 0.33
+description = Load config files of various types 
+comment = MetaCPAN Web
+
+[Config::General]
+version = 2.52
+description = Generic Config Module
+comment = MetaCPAN Web,  Task-Kensho-Config-0.28
+
+[Catalyst::Authentication::Store::Proxy]
+version = 0.0.1
+description = Delegates authentication logic to the user object
+comment  MetaCPAN Web
+
+[Hash::AsObject]
+version = 0.13
+description = treat hashes as objects, with arbitrary accessors/mutators
+comment = MetaCPAN web
+
+[Catalyst::View::TT::Alloy]
+version = 0.00003
+description = Template::Alloy (TT) View Class 
+comment = MetaCPAN Web
+
+[Template::Plugin::DateTime]
+version = 0.06002
+description = A Template Plugin To Use DateTime Objects 
+comment = MetaCPAN Web
+
+[Template::Plugin::JSON]
+version = 0.06
+description = Adds a .json vmethod for all TT values. 
+comment = MetaCPAN Web
+
+[Template::Plugin::Markdown]
+version = 0.02
+description = TT plugin for Text::Markdown 
+comment = MetaCPAN Web
+
+[Template::Plugin::Number::Format]
+version = 1.02
+description = Plugin/filter interface to Number::Format 
+comment = MetaCPAN Web
+
+[Template::Plugin::Page]
+version =  0.10
+description = a plugin to help when paging through sets of results 
+comment = MetaCPAN Web
+
+[AnyEvent::Curl::Multi]
+version = 1.1
+description = a fast event-driven HTTP client
+comment = MetaCPAN Web
+
+
+[MooseX::ClassAttribute]
+version = 0.27
+description = Declare class attributes Moose-style 
+comment = MetaCPAN Web
+
+[Catalyst::View::JSON]
+version = 0.33
+description = JSON view for your data 
+comment = MetaCPAN Web
+
+[HTML::Restrict]
+version = 2.1.9
+description = Strip unwanted HTML tags and attributes 
+comment = MetaCPAN Web
+
+[XML::Feed]
+version = 0.52
+description = Syndication feed parser and auto-discovery 
+comment = MetaCPAN Web
+
+[HTML::Escape]
+version = 1.09
+description = Extremely fast HTML escape
+comment = MetaCPAN Web
+
+[DateTime::Format::ISO8601]
+version = 0.08
+description = Parses ISO8601 formats 
+comment = MetaCPAN Web
+
+[Data::Pageset]
+version = 1.06
+description = Page numbering and page sets 
+comment = MetaCPAN Web
+
+[Hash::Merge]
+version = 0.200
+description = Merges arbitrarily deep hashes into a single hash 
+comment = MetaCPAN Web
+
+[CPAN::Changes]
+version = 0.27
+description = Read and write Changes files
+comment = MetaCPAN Web
+
+[Captcha::reCAPTCHA]
+version = 0.97
+description = A Perl implementation of the reCAPTCHA API
+comment = MetaCPAN Web
+
+
+[Catalyst::Action::RenderView]
+version = 0.16
+description = Sensible default end action
+comment = MetaCPAN Web
+
+[Plack::Middleware::Assets]
+version =  1.0.0
+description = Concatenate and minify JavaScript and CSS files
+comment = MetaCPAN Web
+
+[Plack::Middleware::ServerStatus::Lite]
+version = 0.33
+description = show server status like Apache's mod_status 
+comment = MetaCPAN Web
+
+[CHI]
+version =  0.58
+description = Unified cache handling interface
+comment = MetaCPAN Web
+
+
+
+
+
+
