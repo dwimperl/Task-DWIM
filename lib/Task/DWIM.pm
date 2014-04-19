@@ -61,7 +61,7 @@ sub read_modules {
 
     return if not -e '.git' and not -e $file;
 
-    my $config = Config::Tiny->read( 'file.conf', 'utf8' );
+    my $config = Config::Tiny->read( $file, 'utf8' );
     foreach my $name (keys %$config) {
         $modules{$name} = $config->{$name}{version};
     }
