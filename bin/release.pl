@@ -57,7 +57,12 @@ foreach my $file (readdir $dh) {
     #last;
 }
 
-{
+# create_task_dwim();
+exit;
+
+
+
+sub create_task_dwim {
     print "\n\n****************** Creating Task::DWIM\n";
     my $dir = tempdir(CLEANUP => 1);
     mkpath "$dir/lib/Task" or die;
