@@ -4,7 +4,6 @@ LWP                                             = 6.04
 LWP::MediaTypes                                 = 6.02
 LWP::Protocol::https                            = 6.02
 LWP::UserAgent                                  = 0 # Task-Kensho-WebCrawling-0.28
-LWP::Simple                                     = 0 # Task-Kensho-WebCrawling-0.28
 WWW::Mechanize                                  = 1.72 # Task-Kensho-WebCrawling-0.28
 WWW::Mechanize::TreeBuilder                     = 1.10003 # Task-Kensho-WebCrawling-0.28
 
