@@ -52,6 +52,7 @@ foreach my $file (readdir $dh) {
     copy "lists/$file", "$dir/lists/" or die "Could not copy '$file' $!";
     copy 'MANIFEST.SKIP', "$dir/" or dir $!;
     copy 'README', "$dir/" or dir $!;
+    copy 'Changes', "$dir/" or dir $!;
 
     build($dir, test => 0);
     #last;

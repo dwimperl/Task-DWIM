@@ -300,12 +300,12 @@ tags = Web, Sysadmin
 # version = 0.200
 # description = Merges arbitrarily deep hashes into a single hash
 # comment = MetaCPAN Web
-#
-# [CPAN::Changes]
-# version = 0.27
-# description = Read and write Changes files
-# comment = MetaCPAN Web
-#
+
+[CPAN::Changes]
+version = 0.27
+description = Read and write Changes files
+comment = MetaCPAN Web, http://changes.cpanhq.org/
+
 # [Captcha::reCAPTCHA]
 # version = 0.97
 # description = A Perl implementation of the reCAPTCHA API
